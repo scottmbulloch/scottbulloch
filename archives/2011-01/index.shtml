@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scott Bulloch: Web Development + Graphic Design</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <link href="styles_screen.css" rel="stylesheet" type="text/css" />
+  <!--#include virtual="/inc/scripts.html" -->
+  <script type="text/javascript">
+    swfobject.embedSWF("/swf/header.swf","menu","642","592","9.0.0","/swf/expressInstall.swf");
+  </script>
+</head>
+<body>
+
+<div id="fixedwidth">
+
+  <div id="column1">
+    <div class="content">
+      <div id="nav">
+        <h1>HOME</h1>
+        <hr />
+        <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a>
+          <ul>
+          <li><a href="#development">Web Development</a></li>
+          <li><a href="#design">Graphic Design</a></li>
+          </ul>
+        </li>
+        </ul>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <hr />
+        <ul>
+        <li><a href="#fixedwidth">Back to top of page</a></li>
+        </ul>
+      </div><!-- end nav -->
+    </div><!-- end content -->
+  </div><!-- end column1 -->
+
+  <div id="column2">
+  
+    <div id="header">
+      <div id="menu">
+        <!--#include virtual="/inc/menu.html" -->
+      </div><!-- end menu -->
+    </div><!-- end header -->
+    
+    <div class="clear">&nbsp;</div>
+    
+    <div class="content">
+    
+      <div id="about">
+        <h2>About Me</h2>
+        <div class="article">
+          <p>If you have wandered onto this page it is probably because you have some interest in me and my career. I am a professional graphic designer and web developer currently living in Phoenix, Arizona. My full time gig is working for Pearson Education in the marketing department, coding emails and building informative landing environments within the framework of <a href="www.pearsonschool.com">pearsonschool.com</a>. My professional life goes beyond the corporate world and I spend my free time testing new ideas, expanding my knowledge and excercising my creativity by building websites for my friends and family.</p>
+          <p>I believe in the language of visual communication and how it binds the world together. Design is everywhere and it affects our perception and judgement on a daily basis. A well planned design is more than just a marketing tool, it is an integral part of building a business, a brand and an identity. Good design communicates information, recognition, emotion, and attachment. The designs implemented for your company are the face that the world looks at when deciding what to think and believe. My strength and weakness both lie in my attention to detail and relentless pursuite of perfection. I am always striving to be better and continue to evolve with the ever changing landscape of technology.</p>
+        </div><!-- end article -->
+      </div><!-- end about -->
+      
+      <div id="services">
+        <h2>Services</h2>
+        <div class="article">
+        
+          <div id="development">
+            <h3>Web Development</h3>
+            <p>Although formally trained as a designer, I consider myself a developer and most of my work has been on the web. I started school as a programmer, but wanted to switch to something more creative minded. Making websites is the perfect combination of left and right brain thinking, it utilizes my desire to create and my technical skills. I have continued to educate myself in most current technologies and web standards to provide the best online solutions for my clients.</p>
+            <p>My expertise in web technologies include:</p>
+            <div class="splitcol3">
+              <ul>
+              <li>Polyglot coding:
+                <ul>
+                <li>HTML5</li>
+                <li>XHTML 1.1</li>
+                </ul>
+              </li>
+              <li>CSS3</li>
+              <li>AJAX</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>Flash</li>
+              <li>Forms</li>
+              <li>eCommerce</li>
+              </ul>
+            </div>
+            <div class="splitcol3">
+              <ul>
+              <li>JavaScript including frameworks:
+                <ul>
+                <li>jQuery</li>
+                <li>Prototype &amp; script.aculo.us</li>
+                <li>MooTools</li>
+                </ul>
+              </li>
+              <li>Content Management Systems including:
+                <ul>
+                <li>Wordpress</li>
+                <li>Joomla</li>
+                <li>Custom Built Enterprise Software</li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+            <div class="clear">&nbsp;</div>
+            <p>I also have limited experience in:</p>
+            <ul>
+            <li>ASP.NET</li>
+            <li>ColdFusion</li>
+            <li>SharePoint</li>
+            </ul>
+          </div><!-- end development -->
+      
+          <div id="design">
+            <h3>Graphic Design</h3>
+            <p>I started my professional life designing for printed materials, and it continues to be a passion of mine. I have designed for a variety of different projects over the years, and it is both fun and challenging to create a quality product. Many details have to be taken into consideration before something is printed to be assured it retains the integrity of the original vision for the project. I love the look, feel and smell of something hot off the press.</p>
+            <p>My experience as a graphic designer includes:</p>
+            <div class="splitcol3">
+              <ul>
+              <li>Logos</li>
+              <li>Business Cards</li>
+              <li>Advertisements</li>
+              <li>Brochures</li>
+              <li>Postcards</li>
+              <li>Invitations</li>
+              </ul>
+            </div>
+            <div class="splitcol3">
+              <ul>
+              <li>Posters</li>
+              <li>Magazines</li>
+              <li>Newsletters</li>
+              <li>T-shirts</li>
+              <li>Product Packaging</li>
+              </ul>
+            </div>
+            <div class="clear">&nbsp;</div>
+          </div><!-- end design -->
+          
+        </div><!-- end article -->
+      </div><!-- end services -->
+      
+    </div><!-- end content -->
+  </div><!-- end column2 -->
+
+  <div id="column3">
+    <div class="content">
+      <!--#include virtual="/inc/side.html" -->
+    </div><!-- end content -->
+  </div><!-- end column3 -->
+
+  <div class="clear">&nbsp;</div>
+
+  <div id="footer">
+    <div class="content">
+      <!--#include virtual="/inc/footer.html" -->
+    </div><!-- end content -->
+  </div><!-- end footer -->
+
+</div><!-- end fixedwidth -->
+
+</body>
+</html>

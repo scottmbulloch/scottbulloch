@@ -1,0 +1,294 @@
+@charset "utf-8";
+a, a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+body {
+	background-image: url(images/background_pattern.png);
+	background-repeat: repeat;
+	margin: 20px 0px 40px;
+}
+p {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.1em;
+	color: #333333;
+	margin: .5em 0em;
+	text-indent: 2em;
+	text-align: left;
+}
+h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.7em;
+	color: #666666;
+	margin: 0em;
+	padding: 0em;
+}
+h2 {
+	font-family: AvantGarde, "Century Gothic", Arial, sans-serif;
+	font-size: 5em;
+	color: #CCCCCC;
+	text-align: center;
+	margin: 0em;
+	padding: 0em;
+	line-height: 0.9em;
+}
+h3 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.3em;
+	color: #666666;
+	margin: 0em;
+	padding: 0em;
+}
+h4 {
+	font-family: FrizQuadrata, "FrizQuadrata BT", "FrizQuadrata TT", Georgia, serif;
+	font-size: 1.5em;
+	color: #666666;
+	margin: 0em;
+	padding: 0em;
+}
+.linksList  {
+	list-style-type: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+	margin: 0em;
+	padding: 0em;
+	text-indent: 2em;
+}
+.linksList a  {
+	color: #333333;
+}
+.linksList a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.linksListSub {
+	color: #666666;
+	text-decoration: none;
+	font-size: 0.8em;
+	line-height: 0em;
+	letter-spacing: 0em;
+	margin-bottom: 0.7em;
+	margin-top: 0em;
+}
+.resumeList  {
+	list-style-type: square;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.1em;
+	color: #333333;
+	margin: .5em 0em;
+}
+.imgborder {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#logo {
+	position:relative;
+	width:246px;
+	height:125px;
+	background-image: url(images/header_logo_alpha60.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#topBorder  {
+	height: 12px;
+	width: 100%;
+	position: relative;
+	background-image: url(images/main_border_top_800px.png);
+	clear: left;
+	float: left;
+}
+#botBorder {
+	background-image: url(images/main_border_bot_800px.png);
+	height: 12px;
+	width: 100%;
+	position: relative;
+	float: left;
+	clear: left;
+}
+#insideWrapper {
+	background-image: url(images/main_background_800px.png);
+	background-repeat: repeat-y;
+	position: relative;
+	width: 807px;
+	clear: left;
+	padding-left: 17px;
+}
+#mainWrapper {
+	width: 824px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 10px;
+}
+#spacer {
+	height: 5px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	width: 790px;
+}
+#content {
+	position: relative;
+	width: 790px;
+	background-image: url(images/background_alpha40.png);
+	background-repeat: repeat;
+	clear: left;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#columnA {
+	float: left;
+	width: 175px;
+	position: relative;
+	margin: 5px 0px 0px 5px;
+	padding: 0px;
+}
+#columnB {
+	float: right;
+	width: 590px;
+	position: relative;
+	background-image: url(images/background_alpha40.png);
+	background-repeat: repeat;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin: 10px 5px 0px 0px;
+}
+#columnB1 {
+	float: left;
+	width: 292px;
+	position: relative;
+}
+#columnB2 {
+	float: right;
+	width: 292px;
+	position: relative;
+}
+#foot {
+	text-align: center;
+	clear: left;
+	width: 100%;
+	position: relative;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 0.9em;
+	color: #999999;
+}
+#topNav ul {
+	list-style-type: none;
+	padding: 0px;
+	text-align: center;
+	position: relative;
+	width: 790px;
+	margin: 0px;
+	clear: left;
+	float: left;
+}
+#topNav   ul li  {
+	display: inline;
+	font-family: FrizQuadrata, "FrizQuadrata BT", "FrizQuadrata TT", Georgia, serif;
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	position: relative;
+	clear: right;
+	margin: 0em;
+	padding: 0em 0em .2em;
+	float: left;
+}
+#topNav ul li a {
+	color: #CCCCCC;
+	text-decoration: none;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 0em;
+	padding-bottom: .2em;
+}
+#topNav   ul   li a:hover {
+	background-image: url(images/background_alpha20.png);
+	background-repeat: repeat;
+	color: #FFFFFF;
+}
+#topNav   ul   li a:active  {
+	background-image: url(images/background_alpha40.png);
+	background-repeat: repeat;
+	color: #666666;
+}
+#topNav    ul  .current {
+	color: #333333;
+	background-image: url(images/background_alpha40.png);
+	background-repeat: repeat;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+#subNav ul {
+	list-style-type: none;
+	padding: 0em;
+	text-align: left;
+	position: relative;
+	margin: 0em;
+	width: 175px;
+}
+#subNav   ul li  {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 0.9em;
+	position: relative;
+	margin: 0.5em 0em .5em;
+	padding: 0em;
+}
+#subNav ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+#subNav   ul   li a:hover {
+	color: #FFFFFF;
+
+}
+#subNav    ul  .current {
+	color: #FFFFFF;
+}
+#subNav    ul  .title {
+	color: #333333;
+	background-image: url(images/background_alpha20.png);
+	background-repeat: repeat;
+}
+#botNav ul {
+	list-style-type: none;
+	padding: 0em;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin: 0em;
+	clear: left;
+}
+#botNav   ul li  {
+	display: inline;
+	font-family: FrizQuadrata, "FrizQuadrata BT", "FrizQuadrata TT", Georgia, serif;
+	font-size: 1.1em;
+	position: relative;
+	margin: 0em;
+	padding: 0em;
+}
+#botNav ul li a {
+	color: #999999;
+	text-decoration: none;
+	padding: 0em;
+	margin-right: 0.7em;
+	margin-left: 0.7em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+#botNav   ul   li a:hover {
+	color: #FFFFFF;
+}

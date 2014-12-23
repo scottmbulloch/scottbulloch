@@ -1,0 +1,160 @@
+body {
+	background-color: #000000;
+	margin: 20px 0px 10px;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: line-through;
+}
+.textmain11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.textmain12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.textmain13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.textmain14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+.textwide11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.textwide12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.textwide13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #CCCCCC;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.textwide14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CCCCCC;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.textdark {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+
+.textdark11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	text-align: center;
+}
+.textdark12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+.textdark13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999999;
+	text-align: center;
+}
+.textdarker {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+.textdarker11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-align: center;
+}
+.textdarkest11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-align: center;
+}
+.browsenav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	text-align: left;
+	text-indent: 10px;
+}
+
+
+
+
+.thumbpix {
+	text-align: center;
+	vertical-align: middle;
+	height: 60px;
+	width: 300px;
+	background-position: center center;
+}
+.thumbtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	text-align: center;
+	height: 17px;
+}
+.resumeheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	background-image: url(images/scott_bulloch_resume_heading.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+	line-height: 9px;
+	vertical-align: middle;
+}
+.portfolioheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.portfoliopix {
+	background-color: #999999;
+	text-align: center;
+	vertical-align: middle;
+}

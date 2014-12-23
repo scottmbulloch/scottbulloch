@@ -1,4 +1,1 @@
-scottbulloch
-============
-
-http://scottbulloch.com
+# scottbulloch.com

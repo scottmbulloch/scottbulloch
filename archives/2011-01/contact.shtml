@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scott Bulloch: Contact Information</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="styles_screen.css" rel="stylesheet" type="text/css" />
+  <!--#include virtual="/inc/scripts.html" -->
+</head>
+<body>
+
+<div id="fixedwidth">
+
+  <div id="column1">
+    <div class="content">
+      <div id="nav">
+        <h1>CONTACT</h1>
+        <hr />
+        <ul>
+        <li><a href="#email">Email</a></li>
+        <li><a href="#social">Social Networks</a></li>
+        </ul>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <hr />
+        <ul>
+        <li><a href="#fixedwidth">Back to top of page</a></li>
+        </ul>
+      </div><!-- end nav -->
+    </div><!-- end content -->
+  </div><!-- end column1 -->
+
+  <div id="column2">
+  
+    <div id="header">
+      <div id="menu">
+        <!--#include virtual="/inc/menu.html" -->
+      </div><!-- end menu -->
+    </div><!-- end header -->
+    
+    <div class="clear">&nbsp;</div>
+    
+    <div class="content">
+    
+      <div id="email">
+        <h2>Email</h2>
+        <div class="article">
+          <p>scottbullochdesigns[at]gmail.com</p>
+        </div><!-- end article -->
+      </div><!-- end email -->
+      
+      <div id="social">
+        <h2>Social Networks</h2>
+        <div class="article">
+          <p>Here are some other places you can find me on the web.</p>
+          <ul>
+          <li><a href="http://www.linkedin.com/pub/a/393/997" title="LinkedIn">LinkedIn</a></li>
+          <li><a href="http://www.facebook.com/people/Scott-Bulloch/1493168535" title="facebook">facebook</a></li>
+          <li><a href="http://delicious.com/scottbulloch" title="delicious">delicious</a></li>
+          <li><a href="http://www.myspace.com/scottbullochdesigns" title="MySpace">MySpace</a></li>
+          <li><a href="http://scottbulloch.deviantart.com/" title="deviantART">deviantART</a></li>
+          </ul>
+        </div><!-- end article -->
+      </div><!-- end social -->
+      
+    </div><!-- end content -->
+  </div><!-- end column2 -->
+
+  <div id="column3">
+    <div class="content">
+      <!--#include virtual="/inc/side.html" -->
+    </div><!-- end content -->
+  </div><!-- end column3 -->
+
+  <div class="clear">&nbsp;</div>
+
+  <div id="footer">
+    <div class="content">
+      <!--#include virtual="/inc/footer.html" -->
+    </div><!-- end content -->
+  </div><!-- end footer -->
+
+</div><!-- end fixedwidth -->
+
+</body>
+</html>

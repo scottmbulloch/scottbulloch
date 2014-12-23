@@ -1,0 +1,258 @@
+@charset "utf-8";
+body {
+	background-color: #692326;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #121A0C;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #692326;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	line-height: 20px;
+
+}
+ul {
+	list-style-image: url(images/apple_bullet.png);
+}
+li {
+	padding-bottom: 7px;
+	line-height: 20px;
+}
+h1 {
+	font-family: "Script MT Bold", "Script Bold", Script, "Brush Script MT", "Brush Script";
+	font-size: 32px;
+	color: #21391D;
+	text-decoration: none;
+	text-align: center;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+blockquote {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 18px;
+}
+#left {
+	width: 745px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 0px;
+	padding-left: 15px;
+	background-image: url(images/eat_border_left.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+#right {
+	padding-right: 15px;
+	background-image: url(images/eat_border_right.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+#middle {
+	width: 730px;
+}
+#header {
+	height: 348px;
+	background-image: url(images/eat_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#container {
+	background-image: url(images/eat_content.jpg);
+	background-repeat: repeat-y;
+}
+#main {
+	width: 690px;
+	margin-left: 20px;
+
+}
+#footer {
+	background-image: url(images/eat_footer.jpg);
+	background-repeat: no-repeat;
+	height: 294px;
+	background-position: center;
+	text-align: center;
+}
+
+.img {
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	background-image: url(images/eat_nav_block30.png);
+	background-repeat: repeat;
+
+}
+.rate {
+	font-size: 14px;
+	text-align: center;
+	line-height: 0;
+}
+.foot {
+	font-size: 14px;
+	color: #D0C7B5;
+	width: 630px;
+	margin-left: 30px;
+	padding-top: 15px;
+	line-height: 24px;
+}
+.divider {
+	background-image: url(images/line_divider.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20px;
+	width: 630px;
+}
+
+.foot a {
+	color: #D0C7B5;
+}
+
+
+.blog {
+	font-size: 14px;
+	text-align: center;
+}
+.content {
+	width: 630px;
+	margin-left: 30px;
+}
+.border {
+	background-image: url(images/eat_nav_block30.png);
+	background-repeat: repeat;
+	height: 5px;
+	width: 690px;
+	clear: both;
+}
+
+
+.space {
+	height: 5px;
+	width: 690px;
+	clear: both;
+}
+.space2 {
+	height: 20px;
+	width: 690px;
+	clear: both;
+}
+.quiz {
+	width: 600px;
+}
+.quiz .box {
+	width: 25px;
+}
+.indent {
+	width: 630px;
+	margin-left: 20px;
+}
+.services {
+	padding-left: 17px;
+
+}
+.services li a {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+#services {
+	font-size: 16px;
+	list-style-type: none;
+	list-style-image: none;
+}
+#services ul {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#services li a {
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+	padding-top: 5px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	color: #453E2C;
+	background-image: url(images/eat_nav_block15.png);
+	background-repeat: repeat;
+}
+#services li a:hover {
+	color: #121A0C;
+	background-image: url(images/eat_nav_block00.png);
+	background-repeat: repeat;
+}
+#services li a.current {
+	color: #121A0C;
+	background-image: url(images/eat_nav_block00.png);
+	background-repeat: repeat;
+}
+.menu {
+	width: 690px;
+}
+.menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+.menu ul li {
+	display:inline;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0px;
+}
+.menu ul li a {
+	display:block;
+	color:#D0C7B5;
+	text-decoration:none;
+	font-size: 19px;
+	float: left;
+	text-align: center;
+	padding-right: 11px;
+	padding-left: 11px;
+	background-image: url(images/eat_nav_block30.png);
+	background-repeat: repeat;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0px;
+	font-weight: bold;
+	line-height: 23px;
+}
+.menu ul li a:hover {
+	color: #121A0C;
+	background-image: url(images/eat_nav_block00.png);
+	background-repeat: repeat;
+}
+.menu ul li a.current {
+	color: #121A0C;
+	background-image: url(images/eat_nav_block00.png);
+	background-repeat: repeat;
+}
+.menu ul li.rest {
+	background-image: url(images/eat_nav_block30.png);
+	width: 248px;
+	height: 37px;
+	display: block;
+	float: left;
+	background-repeat: repeat;
+}
+.menu ul li.rest2 {
+	background-image: url(images/eat_nav_block15.png);
+	width: 147px;
+	height: 33px;
+	background-repeat: repeat;
+	display: block;
+	float: right;
+}

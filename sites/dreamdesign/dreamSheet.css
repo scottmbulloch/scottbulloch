@@ -1,0 +1,64 @@
+.body {
+	font-family: "Century Gothic";
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.title {
+	font-family: "Century Gothic";
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-decoration: none;
+	color: #336699;
+
+}
+.links {
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+	color: #334755;
+	padding: 0px 0px 0px 20px;
+	margin: 0px;
+	border-left-width: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.feature {
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #334755;
+	line-height: normal;
+	font-variant: normal;
+	text-decoration: none;
+
+
+}
+.resume {
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}

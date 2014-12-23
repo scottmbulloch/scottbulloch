@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 40px 0 20px 0;
+	background: #620909 url(img/poker_bg2.jpg) repeat;
+	color: #000;
+	font: normal 100% "Palatino Linotype","Book Antiqua",Palatino,serif;
+}
+#wrapper {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+#nav {
+	width: 134px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#nav ul {
+	display: block;
+	width: 134px;
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#nav li {
+	display: block;
+	float: right;
+	clear: both;
+	font-size: 1.25em;
+	line-height: 1em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+#nav li a,
+#nav li a:visited {
+	display: block;
+	width: 70px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #000;
+	margin: 5px 0;
+	padding: 10px 15px;
+}
+#nav li.current {
+	display: block;
+	width: 80px;
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	margin: 5px 0;
+	padding: 10px 15px;
+}
+#nav li a:hover {
+	padding-right: 30px;
+}
+#page {
+    width: 800px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	background-color: #fff;
+	border: #000 3px solid;
+}
+#header {
+    width: 800px;
+    height: 233px;
+	margin: 0;
+	padding: 0;
+}
+#content {
+	margin: 0;
+	padding: 10px;
+}
+#footer {
+    width: 806px;
+	margin: 0 auto;
+	padding: 10px 0 0 134px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.875em;
+}
+#footer a,
+#footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+a,
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+h1 {
+	margin: 5px 0;
+	padding: 0;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 780px;
+	margin: 5px 0;
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #843636;
+}
+h3 {
+	margin: 5px;
+	padding: 0;
+}
+ul,
+ol {
+	margin: 5px 30px;
+	padding: 0;
+}
+ul {
+    list-style-image: url(img/bullet_spade.jpg);
+}
+li {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+p {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+blockquote {
+	margin: 0 0 5px 10px;
+	padding: 0;
+}
+table {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: #000 2px solid;
+}
+th {
+	color: #fff;
+	background-color: #000;
+}
+td {
+	padding: 2px;
+}
+.shade {
+	background-color: #eee;
+}
+.alert {
+	color: #ff0000;
+}
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+small {
+	font-size: 0.75em;
+}
+.winner {
+	font-size: 1.125em;
+	font-weight: bold;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+.accordionButton {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 780px;
+	margin: 5px 0;
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #843636;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+	cursor: pointer;
+}
+.accordionContent {
+	width: 770px;
+	margin: 0;
+	padding: 5px;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+}
+.on {
+	color: #fff;
+	background-color: #000;
+}
+.over {
+	color: #fff;
+	background-color: #000;
+}

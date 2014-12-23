@@ -1,0 +1,94 @@
+# Этот файл содержит сообщения об ошибках, используемые Phorm.
+# Они собраны здесь, чтобы облегчить перевод и/или настройку.
+# Теперь нет потребности в Custom Message plugin.
+# Каждая линия состоит из номера сообщения: E для сообщений об ошибках и А для предупреждения
+# %%% заменяется трехцифровым кодом ошиби
+
+
+E000 %%% - Катастрофическая ошибка: Невозможно читать библиотеку функции Phorm <B>{{ph_root}}/lib/functions.php</B>.
+E001 %%% - Катастрофическая ошибка: некорректная версия библиотеки функций ({{ph_LibVersion}}).
+E002 %%% - Катастрофическая ошибка: Невозможно читать библиотеку типов MIME.
+E003 %%% - I'm sorry, Phorm requires at least PHP version {{ph_PHPMinVers}}. 
+E009 %%% - Фатальная ошибка конфигурации PHP. Невозможно продолжать.
+E010 %%% - Невозможно открыть файл базы {{ph_phormbase}}
+E020 %%% - Невозможно открыть главный файл конфигурации.
+E030 %%% - Некорректный каталог <B>{{ph_basedir}}</B> в <B>{{ph_phormbase}}</B>.
+E040 %%% - Извините, эта страница только обрабатывает содержание формы. Вы не можете обращаться к ней непосредственно.
+E050 %%% - Невозможно открыть файл конфигурации <B>{{ph_cwd}}/{{PHORM_CONFIG}}</B>.
+E060 %%% - Некорректный каталог <B>{{PHORM_BASE}}</B> в $PHORM_BASE в <B>{{ph_cwd}}/{{PHORM_CONFIG}}</B>
+E070 %%% - Невозможно открыть файл шаблона подтверждения <B>{{PHORM_ACK}}</B>.
+E080 %%% - Доступ запрещен. К этой инсталляции Phorm нельзя обращаться от [{{HTTP_REFERER}}].
+E090 %%% - случилась ошибка, и ваша информация не была послана.
+
+A000 %%% - Невозможно загрузить плугин {{ph_plfile}} в стадии {{ph_stage}}.
+A001 %%% - Невозможно открыть файл ошибки проверки правильности <B>{{ph_tpd}}/{{ph_errFile}}</B>.
+A002 %%% - Невозможно открыть файл шаблона автоответа <B>{{ph_tpd}}/{{PHORM_RESPOND}}</B>.
+A003 %%% - Невозможно открыть файл вложения автоответа <B>{{ph_atd}}/{{PHORM_RESATCH}}</B>.
+A004 %%% - Невозможно открыть лог-файл <B>{{ph_tpd}}/{{lPHORM_LOG}}</B>.
+A005 %%% - Невозможно открыть файл шаблона почты <B>{{lPHORM_TMPL}}</B>.
+A006 %%% - Невозможно открыть модуль вложения файла. Аттачмент не послан.
+A007 %%% - Невозможно открыть файл переменных Базы данных <B>{{ph_tpd}}/{{PHORM_MYDBV}}</B>.
+A008 %%% - Невозможно открыть файл проверки правильности <B>{{ph_tpd}}/{{PHORM_VALDEFS}}</B>.
+A009 %%% - Загруженный файл заблокирован в вашей PHP конфигурации, и ваша форма была послана с ENCTYPE=multipart/form-data признаком. Скрипт не может читать содержание вашей формы.
+    
+A010 %%% - Невозможно открыть модуль аттачмента. Аттачмент не послан.
+A011 %%% - Невозможно открыть файл загрузки модуля. Загруженный файл(ы), не сохранен(ы).
+    
+A020 %%% - Недопустимая конструкция в {{ph_phormbase}}.
+    
+A030 %%% - Невозможно соединиться с хостом {{DHost}}.
+A031 %%% - Невозможно выбрать базу данных {{DBase}}.
+    
+A040 %%% - Ошибка в запросе: <BR> \n {{ph_LOGQString}} <BR> \n MySQL говорит: {{ph_LOGMyErr}}
+    
+A050 %%% - REGEX критерий требует одного параметра.
+A051 %%% - CCARD критерий требует одного параметра.
+A052 %%% - критерий ДИАПАЗОНА требует двух параметров.
+A053 %%% - ONEOF критерий требует по крайней мере одного параметра.
+A054 %%% - GT критерий требует параметра.
+A055 %%% - LT критерий требует параметра.
+A056 %%% - EQ критерий требует параметра.
+A057 %%% - GE критерий требует параметра.
+A058 %%% - LE критерий требует параметра.
+A059 %%% - NE критерий требует параметра.
+A060 %%% - UNIQUE критерий требует двух параметров.
+A061 %%% - UNIQUE критерий требует, чтобы база данных была открытой.
+A062 %%% - Ошибка в запросе: <BR> \n {{ph_UNQQString}} <BR> \n MySQL говорит: {{ph_UNQMyErr}}
+A063 %%% - EXISTS критерий требует двух параметров.
+A064 %%% - EXISTS критерий требует, чтобы база данных была открытой.
+A065 %%% - Ошибка d запросе: <BR> \n {{ph_EXSQString}} <BR> \n MySQL говорит: {{ph_EXSMyErr}}
+A066 %%% - FILEEXT критерий требует по крайней мере одного параметра.
+A067 %%% - FILESIZ критерий требует одного параметра.
+A068 %%% - критерий DATE требует по крайней мере одного параметра.
+A069 %%% - FLDLEN критерий требует трех параметров.
+A070 %%% - Недопустимый критерий: {{ph_BadCrit}}
+A071 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing criterion.
+A072 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing form field name.
+A073 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing error message.
+    
+A100 %%% - You cannot use \$PHORM_ACK and \$PHORM_RDIRECT together. You must ack *or* re-direct.
+    
+A110 %%% - Функция Mail, заглючила на автоответе
+    
+A120 %%% - Вы не можете иметь больше чем {{ph_tmax}} почтовых шаблонов в $PHORM_TMPL.
+A121 %%% - Функция Mail заглючила на  электронной почте пользователя в шаблоне <B>{{lPHORM_TMPL}}</B>.
+    
+A130 %%% - Невозможно выполнять файл постобработки <B>{{ph_tpd}}/{{PHORM_POSTINC}}</B>.
+    
+A140 %%% - функция Mail заглючила при посылке предупреждений.
+
+A150 %%% - This file upload module requires at least Phorm version {{ph_PHMMinVers}}.
+A151 %%% - To upload files, your FORM tag must have the ENCTYPE="multipart/form-data" attribute.
+A152 %%% - Unable to save file {{ph_upd}}/{{ph_FileName}} on your system.
+A153 %%% - Your file upload module is outdated. Contact Phorm Support for the new version.
+
+A160 %%% - This file attachment module requires at least Phorm version {{ph_PHMMinVers}}.
+A161 %%% - Unable to open autoresponder attachment file {{ph_attachfile}}.
+A162 %%% - Unable to open email attachment file {{ph_attachfile}}.
+A163 %%% - Your file attachment module is outdated. Contact Phorm Support for the new version.
+
+A170 %%% - The {{ph_PluginName}} plugin requires at least Phorm v{{ph_ReqPhormVers}}.
+A171 %%% - HTMLMail unable to open autoresponder attachment file {{ph_atd}}/{{PHORM_RESATCH}}.
+A172 %%% - HTMLMail unable to open file attachment module. Responder attachment not sent.
+A173 %%% - HTMLMail Unable to open mail template file <B>{{lPHORM_TMPL}}</B>.
+A174 %%% - HTMLMail Unable to open file attachment module. User email attachment{{ph_s}} not sent.

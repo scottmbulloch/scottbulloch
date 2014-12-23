@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kim's Fitness Classes, Workout Schedule &amp; Online Payment</title>
+<meta name="description" content="Kim Bulloch is a certified yoga intructor in Phoenix, AZ who blends several different types of workouts into challenging and unique fitness classes." />
+<meta name="keywords" content="Kim Bulloch, fitness, workout, yoga, pilates, phoenix, arizona, az" />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" type="text/css" href="kimstyles.css" />
+<link rel="stylesheet" type="text/css" href="fullcalendar.css" />
+<script src="js/jquery-1.4.4.min.js" type="text/javascript"></script> 
+<script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script> 
+<script src="js/jquery.localscroll-1.2.5.js" type="text/javascript"></script> 
+<script src="js/jquery.serialScroll-1.2.1.js" type="text/javascript"></script> 
+<script src="js/coda-slider.js" type="text/javascript"></script>
+<script src="js/fullcalendar.min.js" type="text/javascript"></script>
+<script src="js/gcal.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+        header: {left:'prev,next today',center:'title',right:'month,basicWeek,basicDay'},
+        events: $.fullCalendar.gcalFeed("http://www.google.com/calendar/feeds/kimbulloch%40gmail.com/public/basic")
+    });
+
+});
+</script>
+</head>
+
+<body>
+
+<div id="backslider">&nbsp;</div>
+
+<div id="header"><a href="/"><img src="img/kims_classes_page_title.gif" alt="Kim's Classes @ al Moro Studio" width="750" height="200" /></a></div>
+
+<div id="slider">
+
+<ul class="navigation"> 
+    <li><a href="#classes">CLASSES</a></li> 
+    <li><a href="#schedule">SCHEDULE</a></li> 
+    <li><a href="#location">LOCATION</a></li> 
+    <li><a href="#contact">CONTACT</a></li> 
+    <li><a href="#pricing">PRICING</a></li> 
+    <li><a href="#links">LINKS</a></li> 
+</ul>
+
+<hr />
+ 
+<div class="scroll"> 
+    <div class="scrollContainer">
+    
+    <div class="panel" id="classes">
+        <h3>al Moro Fitness with Kim</h3>
+        <p>This is a fast paced, 60-75 minute class that incorporates many different forms of exercise including: cardio, ballet barre, pilates, yoga, and resistance training with handweights. Al Moro Fitness is an action packed, upbeat, fun class for any level of fitness. Space for this class is limited due to equipment, so please call me to reserve your spot.</p>
+        <h3>Vinyasa Flow Yoga</h3>
+        <p>Yoga postures linked together in a continuous and challenging flow.</p>
+        <h3>Cardio Sculpt</h3>
+        <p>Cardio Sculpt is a high energy class that combines cardio, resistance training with hand weights, and plenty of ab work. This class is designed to be easy to follow and will sculpt and strengthen every major muscle group.</p>
+        <h3>Mat Pilates &amp; Cardio</h3>
+        <p>Pilates exercise dramatically transforms the way your body looks, feels and performs. It builds strength without excess bulk, creating a sleek, toned body with slender thighs and a flat abdomen.  A key component to the workout is the Pilates breath work, it increases lung capacity and creates a mind-body connection. Cardio exercises are sprinkled through this class to give you a well-rounded workout.</p>
+        <h3>Vinyasa Pilates</h3>
+        <p>Vinyasa yoga and mat pilates all in one class. The word Vinyasa means "breath-synchronized movement." In other words, I will instruct you to move from one pose to the next on an inhale or an exhale. This technique is flowing and with the smooth way that the poses run together, it becomes like a dance. I add standing and mat pilates to the flow to strengthen the core. Vinyasa Pilates is a yoga-based fitness class, so you get the best of both worlds. Reservations for this class are not required, so feel free to drop in!</p>
+    </div>
+    
+    <div class="panel" id="schedule">
+        <div id="calendar">&nbsp;</div>
+    </div> 
+    
+    <div class="panel" id="location">
+        <h3>al Moro Studio</h3>
+        <p>806 E Camelback Rd<br />Phoenix, AZ 85014</p>
+        <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=806+E+Camelback+Rd+85014&amp;sll=33.509509,-112.063615&amp;sspn=0.00653,0.009313&amp;g=806+E+Camelback+Rd+85016&amp;ie=UTF8&amp;hq=&amp;hnear=806+E+Camelback+Rd,+Phoenix,+Maricopa,+Arizona+85014&amp;view=map&amp;ll=33.509506,-112.063618&amp;spn=0.01306,0.018625&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+    </div>
+    
+    <div class="panel" id="contact">
+        <h3>Phone</h3>
+        <p>602-577-7409<br />Please feel free to call me if you have any questions <br />or would like to reserve your spot in class.</p>
+        <h3>Email</h3>
+        <p>KimBulloch(at)gmail.com</p>
+    </div> 
+    
+    <div class="panel" id="pricing">
+        <p><strong>Become a member of al Moro Studio and receive amazing class discounts. <br />Membership dues are $25 per year.</strong></p>
+        <h3>Member pricing</h3>
+        <div class="indent">
+            <p><strong>Monthly Unlimited $90</strong><br /><small>Expires at the end of each month.</small></p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="2S42WVNCW236J" />
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            </form>
+            <p><strong>10 Pass $100</strong><br /><small>Expires in 10 weeks.</small></p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="VU5APD24T2UPL" />
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            </form>
+            <p><strong>5 Pass $60</strong><br /><small>Expires in 5 weeks.</small></p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="H2QMJ3A8KCQSS" />
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            </form>
+        </div>
+        <p>&nbsp;</p>
+        <h3>Non-member pricing</h3>
+        <div class="indent">
+            <p><strong>Buy Non-members Classes</strong><br /><small>Expires in 6 months.</small></p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="VEMLJBRKYNJMU" />
+                <input type="hidden" name="on0" value="Buy Non-members Classes" />
+                <select name="os0">
+                    <option value="Single class">Single class $17.00</option>
+                    <option value="5 class card">5 class card $80.00</option>
+                </select>
+                <input type="hidden" name="currency_code" value="USD" />
+                <br />
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            </form>
+        </div>
+    </div>
+    
+    <div class="panel" id="links">
+        <p><strong>al Moro Dance Studio</strong><br /><a href="http://www.almorostudio.com/"><img src="img/almorostudio.jpg" alt="al Moro Dance Studio" /></a></p>
+        <p><strong>Bunky Boutique</strong><br /><a href="http://www.bunkyboutique.com/"><img src="img/bunkyboutique.jpg" alt="Bunky Boutique" /></a></p>
+        <p><strong>GI Jane Boot Camp</strong><br /><a href="img/JaneBootCamp.pdf"><img src="img/janebootcamp.jpg" alt="GI Jane Boot Camp" /></a></p>
+    </div>
+    
+    </div> <!--scrollContainer-->
+</div> <!--scroll-->
+
+</div> <!--slider-->
+
+<div id="footer"><a href="http://scottbulloch.com/" target="_blank">Website by Scott Bulloch</a></div>
+
+</body>
+</html>

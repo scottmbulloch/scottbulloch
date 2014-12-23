@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"dropdown",
+				"dropdown-toggle"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"animate",
+				"animateLocationPoints"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 30655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 29048,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/archives/2014-04/portfolio.php",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/archives/2014-04/resume.php",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/Uno_Personal/Video Background Version/HTML Files/index.html",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/js/app.js",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/Uno_Personal/Video Background Version/HTML Files/css/main.css",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/css/owl.theme.css",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/css/owl.carousel.css",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/archives/2014-04/contact.php",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/archives/2014-04/index.php",
+		"/Users/scottbulloch/Box Sync/Projects/DarkStarYoga/2014-01-02_DSY-Website-PricingPage.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_includes/footer.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/uto-footer.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/variables.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/panels.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/uto-homepage.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/mixins.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/type.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/ionicons.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/utilities.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/grid.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/uto-custom.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/services/project-management/article/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/news/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/uto-nav.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_includes/uto-nav.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/responsive-utilities.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_layouts/default.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/asu-nav.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/bootstrap.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/style-guide/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_includes/scripts-default.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/services/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/css/bootstrap.css",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_includes/asu-nav.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/buttons.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/scaffolding.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/forms.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/normalize.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/js/dropdown-hover.js",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/progress-bars.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/labels.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/tooltip.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/navs.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/dropdowns.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/js/dropdown.js",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/js/collapse.js",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/navbar.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/jumbotron.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/button-groups.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/news/post.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/custom.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/glyphicons.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/_includes/head.html",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/theme.less",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_build/less/code.less",
+		"/Users/scottbulloch/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/_deploy/style-guide/index.html",
+		"/Users/scottbulloch/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/ASU-UTO.sublime-project",
+		"/Users/scottbulloch/Projects/29thDrive/ASU/asu-uto/README.md",
+		"/Users/scottbulloch/Dropbox/Websites/ScottBulloch/dev/cpm/holiday-email/index.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/uk/holiday-playbar-uk-en-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/sv/holiday-playbar-sv-sv-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/rola/holiday-playbar-rola-es-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/roe/holiday-playbar-roe-en-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/nz/holiday-playbar-nz-en-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/no/holiday-playbar-no-no-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/nl/holiday-playbar-nl-nl-prospect-viewonline.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/nl/holiday-playbar-nl-nl-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/mx/holiday-playbar-mx-es-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/it/holiday-playbar-it-it-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/fr/holiday-playbar-fr-fr-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/es/holiday-playbar-es-es-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/dk/holiday-playbar-dk-da-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/de/holiday-playbar-de-de-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/ca/holiday-playbar-ca-en-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/be/holiday-playbar-be-nl-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/au/holiday-playbar-au-en-prospect.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/au/holiday-playbar-au-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/be/holiday-playbar-be-nl-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/ca/holiday-playbar-ca-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/de/holiday-playbar-de-de-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/dk/holiday-playbar-dk-da-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/es/holiday-playbar-es-es-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/fr/holiday-playbar-fr-fr-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/it/holiday-playbar-it-it-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/mx/holiday-playbar-mx-es-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/nl/holiday-playbar-nl-nl-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/no/holiday-playbar-no-no-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/nz/holiday-playbar-nz-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/roe/holiday-playbar-roe-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/rola/holiday-playbar-rola-es-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/sv/holiday-playbar-sv-sv-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/uk/holiday-playbar-uk-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/us/holiday-playbar-us-en-owner.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-en.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-sv.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-no.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-nl.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-it.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-fr.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-es.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-de.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/29thdrive-sonos-holiday-playbar-da.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-playbar/_master/29thdrive-sonos-holiday-playbar-master.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/2013-holiday-email/29thdrive-sonos-holiday-playbar-master.html",
+		"/Users/scottbulloch/Downloads/sample-template/template-widgets.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-a.html",
+		"/Users/scottbulloch/Downloads/email-templates/basic-email-template/basic.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-b.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-a-build.html",
+		"/Users/scottbulloch/Projects/29thDrive/Sonos/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-b-build.html",
+		"/Users/scottbulloch/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/scottbulloch/Projects/29thDrive/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-a-build.html",
+		"/Users/scottbulloch/Projects/DarkStarYoga/2013-11-29-pricing-page.html",
+		"/Users/scottbulloch/Projects/29thDrive/sonos-email/trigger-email/29thdrive-sonos-trigger-layout-b-build.html",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/untitled.sublime-project",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_layoutstyles.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_buttons.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_globals.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_map.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_normalize.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/js/vendor/jquery.responsiveTabs.js",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_forms.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_bio.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/sass/_grid.scss",
+		"/Users/scottbulloch/Projects/29thDrive/GibsonDunn/gibson-dunn-web/js/main.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"testimo",
+			"button",
+			"input",
+			"203763",
+			"owl-example",
+			"rgba",
+			"0875BD",
+			"Raleway",
+			"font-weight",
+			"Raleway",
+			"font-style",
+			"border-radius-base",
+			"pull",
+			"gutter",
+			"boxmodel",
+			"grid-gutter-width",
+			"@gray",
+			"#767676",
+			"footer",
+			"list",
+			"butt",
+			"panel-variant",
+			"panel-var",
+			"panel",
+			"panel-default",
+			"butt",
+			"block",
+			"button",
+			"2a2a2a",
+			"d7d7d7",
+			"blockq",
+			"hr",
+			"<span></span>",
+			":after",
+			":before",
+			"<span class=\"caret\"></span>",
+			"caret",
+			"ion-arrow-down-b",
+			"click.bs.dropdown",
+			"navbar-default-link-hover-bg",
+			"border-radius",
+			"dropdown-menu",
+			"border-radius",
+			"dropdown-menu",
+			"@border-radius-base",
+			"shadow",
+			"text-shadow",
+			"btn-",
+			"address",
+			"navbar-padding-ver",
+			"navbar-height",
+			"button",
+			"asu_header",
+			"http://www.asu.edu/",
+			".container",
+			"-USc",
+			"-UKc",
+			"-SVc",
+			"-ROLAc",
+			"-ROEc",
+			"-NZc",
+			"-NOc",
+			"-NLc",
+			"-MXc",
+			"-ITc",
+			"-FRc",
+			"-ESc",
+			"-DKc",
+			"-DEc",
+			"-CAc",
+			"-BEc",
+			"-AUc",
+			"playbar",
+			"float: left; clear: both;",
+			"width=\"210\"",
+			"align=\"left\"",
+			"<img",
+			"h1, h2",
+			"nav",
+			"font-family",
+			"width: '160px'",
+			"class=\"btn map-city\"",
+			"row",
+			"sprite.svg",
+			"search-link",
+			"openTab",
+			"activate",
+			"tabs-activate",
+			"stateActive",
+			"r-tabs-state-active",
+			"aside-left",
+			"extend",
+			"em, i",
+			"em",
+			"h1",
+			"family",
+			"img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"203763",
+			"Lato",
+			"<span class=\"ion\"></span>",
+			"<span></span>",
+			"caret",
+			"//www.asu.edu/asuthemes/4.0-rsp.1/",
+			"-USp",
+			"-UKp",
+			"-SVp",
+			"-ROLAp",
+			"-ROEp",
+			"-NZp",
+			"-NOp",
+			"-NLp",
+			"-MXp",
+			"-ITp",
+			"-FRp",
+			"-ESp",
+			"-DKp",
+			"-DEp",
+			"-CAp",
+			"-BEp",
+			"-AUp",
+			"height: '60px'",
+			"class=\"map-city\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 30655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4667.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 29048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13735.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}

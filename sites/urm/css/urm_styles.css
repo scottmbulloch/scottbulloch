@@ -1,0 +1,55 @@
+/* ____________________________________________________________________ tags */
+body {
+    margin: 0;
+    padding: 0;
+    background: #5189b8 url(../img/bg_body.jpg) repeat-x left 210px;
+    font: 14px/100% "Palatino Linotype", Times, serif;
+}
+a {
+    color: #eee;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+/* __________________________________________________________________ layout */
+#wrapper {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    width: 100%;
+    height: 210px;
+    margin: 0 auto;
+    padding: 0;
+    background: url(../img/urm_header4.jpg) no-repeat center top;
+}
+#headerContent {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+#summary {
+    width: 300px;
+    margin: 0;
+    padding: 60px 20px 0 0;
+	color: #111;
+	line-height: 1.2;
+	float: right;
+	text-align: justify;
+}
+#page {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    background: #426098 url(../img/bg_page.jpg) repeat-y center top;
+}
+#footer {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+	text-align: center;
+	color: #eee;
+}

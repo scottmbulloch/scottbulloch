@@ -1,0 +1,972 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #111;
+    text-shadow: none;
+}
+::selection {
+    background: #111;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Fonts
+   ==========================================================================
+
+@font-face {
+    font-family: 'Entypo';
+    src: url('../fonts/entypo.eot?') format('eot'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Entypo Social';
+    src: url('../fonts/entypo-social.eot?') format('eot'),
+         url('../fonts/entypo-social.woff') format('woff'),
+         url('../fonts/≣entypo-social.ttf') format('truetype');
+} */
+
+/* ==========================================================================
+   Custom page styles for mobile first
+   ========================================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #ddd;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Lucida Grande', sans-serif;
+}
+#head-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0px 2px 22px 0px #fff;
+}
+#head-title {
+    float: right;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    margin: 8px 20px 0 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-family: 'Crimson Text', sans-serif;
+}
+h1, 
+h2, 
+h3 {
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    display: block;
+    margin: 0 auto;
+    padding: 0 .25em;
+    clear: both;
+    color: #ccc;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Marcellus SC', sans-serif;
+}
+h1.home-heading {
+    font-size: 2em;
+}
+h2 {
+    display: block;
+    cursor: pointer;
+    font-size: 1.75em;
+    width: 90%;
+    padding: .25em 0;
+    margin: 0 auto;
+    font-family: 'Crimson Text', serif;
+    text-transform: lowercase;
+    text-shadow: 2px 2px #111111;
+}
+h3 {
+    font-size: 1.75em;
+    font-family: 'Crimson Text', serif;
+}
+#main-container {
+    position: relative;
+    top: 50px;
+    background-color: #222;
+}
+#main-title {
+    padding: 0 0 2em 0;
+    background: url('../img/main-title-pattern.png') center top repeat;
+}
+.logo {
+    display: block;
+    float: right;
+    clear: both;
+    margin-right: 10%;
+    visibility: hidden;
+}
+.hatch {
+    animation-name: hatch;
+    animation-duration: 3s; 
+    animation-timing-function: linear;
+    transform-origin: 50% 0;
+    -webkit-animation-name: hatch;
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-timing-function: linear;
+    -webkit-transform-origin: 50% 0;
+    visibility: visible !important;     
+}
+@keyframes hatch {
+    0% { transform: scale(0.1, 0.1) rotate(0deg); }
+    10% { transform: scale(0.1, 1) rotate(0deg); }
+    20% { transform: scale(1.1, 1) rotate(-4deg); }
+    30% { transform: scale(1, 1) rotate(4deg); }
+    40% { transform: scale(1, 1) rotate(-3deg); }
+    50% { transform: scale(1, 1) rotate(3deg); }
+    60% { transform: scale(1, 1) rotate(-2deg); }
+    70% { transform: scale(1, 1) rotate(2deg); }
+    80% { transform: scale(1, 1) rotate(-1deg); }
+    90% { transform: scale(1, 1) rotate(1deg); }
+    100% { transform: scale(1, 1) rotate(0deg); }
+}
+@-webkit-keyframes hatch {
+    0% { -webkit-transform: scale(0.1, 0.1) rotate(0deg); }
+    10% { -webkit-transform: scale(0.1, 1) rotate(0deg); }
+    20% { -webkit-transform: scale(1.1, 1) rotate(-4deg); }
+    30% { -webkit-transform: scale(1, 1) rotate(4deg); }
+    40% { -webkit-transform: scale(1, 1) rotate(-3deg); }
+    50% { -webkit-transform: scale(1, 1) rotate(3deg); }
+    60% { -webkit-transform: scale(1, 1) rotate(-2deg); }
+    70% { -webkit-transform: scale(1, 1) rotate(2deg); }
+    80% { -webkit-transform: scale(1, 1) rotate(-1deg); }
+    90% { -webkit-transform: scale(1, 1) rotate(1deg); }
+    100% { -webkit-transform: scale(1, 1) rotate(0deg); }
+}
+#main-content div:first-child {
+    padding-top: 2.5em;
+    background-image: url('../img/main-content-border-top.png');
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+    padding: 2em 0;
+}
+.color1 {
+    background: #292733;
+}
+.color2 {
+    background: #302935;
+}
+.color3 {
+    background: #252933;
+}
+.color4 {
+    background: #293135;
+}
+.color5 {
+    background: #293530;
+}
+#main-container p {
+    margin: .25em 0 .75em 0;
+    padding: 0;
+    line-height: 1.7;
+}
+#main-container ul {
+    margin: .25em 0 .75em 1em;
+    padding: 0 0 0 1em;
+    line-height: 1.7;
+}
+#main-container a {
+    color: #eee;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#main-container a:hover {
+    color: #fff;
+}
+#main-container .alert {
+    color: #fecaca;
+}
+.spaced-list li {
+    margin-bottom: .5em;
+}
+.static-content,
+.toggle-content {
+    width: 90%;
+    margin: 0 auto;
+}
+.toggle-content {
+    display: none;
+}
+#foot-container {
+    position: relative;
+    top: 50px;
+    padding: 2em 2em 4em 2em;
+    font-size: .875em;
+    line-height: 1.5;
+    text-align: center;
+    color: #aaa;
+}
+#foot-container p {
+    margin: 0;
+    padding: 0;
+}
+#resume-contact {
+    display: none;
+}
+#resume-print {
+    text-align: center;
+}
+label {
+    display: block;
+    line-height: 1.5em;
+    margin: 0 0 .25em 0;
+}
+textarea,
+input[type=text] {
+    display: block;
+    clear: right;
+    width: 90%;
+    margin: 0 0 .625em 0;
+    padding: .5em 5%;
+    border: 0;
+    border-radius: 2px;
+    background: #aaa;
+}
+input[type=submit] {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: .5em 1em;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    background-color: #aaa;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#888));
+    background-image: -webkit-linear-gradient(top, #aaa, #888);
+    background-image: -moz-linear-gradient(top, #aaa, #888);
+    background-image: -o-linear-gradient(top, #aaa, #888);
+    background-image: linear-gradient(to bottom, #aaa, #888);
+}
+input[type=submit]:hover {
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#aaa));
+    background-image: -webkit-linear-gradient(top, #ccc, #aaa);
+    background-image: -moz-linear-gradient(top, #ccc, #aaa);
+    background-image: -o-linear-gradient(top, #ccc, #aaa);
+    background-image: linear-gradient(to bottom, #ccc, #aaa);
+}
+.portfolio-heading {
+    font-size: 1.5em;
+}
+.portfolio-container {
+    max-width: 600px;
+}
+.portfolio-container img {
+	width: 100%;
+    margin: .25em auto .75em auto;
+}
+.portfolio-description {
+}
+.half-column {
+    width: 100%;
+    float: none;
+}
+#main-container .half-column ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mobile-hide {
+    display: none;
+}
+
+/* ==========================================================================
+   Responsive Menu
+   ========================================================================== */
+
+#head-menu {
+    display: none;
+}
+.mobile-nav-0 {
+    margin: 0;
+    padding: 0;
+}
+.mobile-nav-0 li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #111;
+}
+.mobile-nav-0 li:first-child {
+    border-top: 0;
+}
+.mobile-nav-0 li:last-child {
+    border-bottom: 0;
+}
+.mobile-nav-0 li a {
+    display: block;
+    padding: .75em 1.25em;
+    margin: 0;
+    color: #ddd;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+    font-family: 'Marcellus SC', serif;
+}
+.mobile-nav-0 li a:hover {
+    color: #fff;
+    background: #444;
+}
+.mobile-nav-0 li a:active {
+    color: #111;
+    background: #555;
+}
+.mobile-nav-0 li a.active {
+    color: #bbbcea;
+    background: #222;
+}
+a#build-menu-button {
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    margin: 8px 0 0 14px;
+    padding: 0;
+    color: #ddd;
+    text-decoration: none;
+    font-family: 'Marcellus SC', 'Crimson Text', sans-serif;
+}
+a#build-menu-button:hover {
+    color: #fff;
+}
+#build-menu-page {
+    left: 0;
+    position: relative;
+}
+#build-menu {
+    visibility: visible;
+    z-index: 0;
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    display: none;
+    width: 260px;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+.build-menu-animating #build-menu-page {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.build-menu-animating #build-menu-page #head-container {
+    position: absolute;
+}
+.build-menu-animating.build-menu-close #build-menu-page,
+.build-menu-animating.build-menu-open #build-menu-page {
+    -webkit-transition: -webkit-transform 250ms;
+    -moz-transition: -moz-transform 250ms;
+    -o-transition: -o-transform 250ms;
+    -ms-transition: -ms-transform 250ms;
+    transition: transform 250ms;
+}
+.build-menu-animating.build-menu-open #build-menu-page {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.build-menu-animating #build-menu { 
+    display: block; 
+}
+.build-menu-open #build-menu {
+    display: block;
+    -webkit-transition-delay: 0ms, 0ms, 0ms;
+    -moz-transition-delay: 0ms, 0ms, 0ms;
+    -o-transition-delay: 0ms, 0ms, 0ms;
+    -ms-transition-delay: 0ms, 0ms, 0ms;
+    transition-delay: 0ms, 0ms, 0ms;
+}
+.build-menu-open #build-menu,
+.build-menu-close #build-menu {
+    -webkit-transition: -webkit-transform 250ms, opacity 250ms, visibility 0ms 250ms;
+    -moz-transition: -moz-transform 250ms, opacity 250ms, visibility 0ms 250ms;
+    -o-transition: -o-transform 250ms, opacity 250ms, visibility 0ms 250ms;
+    -ms-transition: -ms-transform 250ms, opacity 250ms, visibility 0ms 250ms;
+    transition: transform 250ms, opacity 250ms, visibility 0ms 250ms;
+}
+
+/* ==========================================================================
+   Media Queries for larger screens
+   ========================================================================== */
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 800px) {
+    #mobile-menu {
+        display: none;
+    }
+    #head-menu {
+        display: block;
+        float: left;
+    }
+    #head-menu ul {
+        margin: 0;
+        padding: 0;
+    }
+    #head-menu ul li {
+        list-style: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    #head-menu ul li a {
+        display: block;
+        padding: 0;
+        margin: 8px 0 0 25px;
+        color: #ddd;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #000;
+        text-transform: uppercase;
+        font-family: 'Marcellus SC', serif;
+    }
+    #head-menu ul li a:hover {
+        color: #fff;
+    }
+    #head-menu ul li a:active {
+        color: #111;
+    }
+    #head-menu ul li a.active {
+        color: #bbbcea;
+    }
+    h1 {
+        font-size: 4em;
+        max-width: 1000px;
+    }
+    h1.home-heading {
+        font-size: 3em;
+    }
+    h2,
+    .toggle-content,
+    .static-content {
+        display: block;
+        width: 80%;
+        max-width: 800px;
+    }
+    h2,
+    .portfolio-heading {
+        cursor: default;
+        font-size: 2em;
+        padding: .25em 0 .5em 0;
+    }
+    .color1,
+    .color2,
+    .color3,
+    .color4,
+    .color5 {
+        padding: 4em 0;
+    }
+    .portfolio-description {
+        padding: 1em .5em;
+    }
+    textarea,
+    input[type=text] {
+        display: block;
+        float: left;
+        width: 60%;
+        margin: .25em;
+        padding: .5em;
+    }
+    label {
+        display: block;
+        float: left;
+        width: 20%;
+        line-height: 2em;
+    }
+    input[type=submit] {
+        display: block;
+        float:left;
+        clear: both;
+        border: 0;
+        margin: 0;
+        padding: .5em 1em;
+    }
+    .half-column {
+        width: 50%;
+        float: left;
+    }
+    .mobile-hide {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #head-title {
+        margin-right: 10%;
+    }
+    #head-menu {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {    
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+@media only screen and (min-width: 1700px) {
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Internet Explorer classes
+   ========================================================================== */
+
+.lt-ie9 #mobile-menu {
+    display: none;
+}
+.lt-ie9 #head-container {
+    height: 50px;
+}
+.lt-ie9 #head-title {
+    float: right;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 5px 20px 0 0;
+    padding: 0;
+    font-family: 'Crimson Text', sans-serif;
+}
+.lt-ie9 #head-menu {
+    display: block;
+    float: left;
+}
+.lt-ie9 #head-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.lt-ie9 #head-menu ul li {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.lt-ie9 #head-menu ul li:first-letter {
+    font-size: 30px;
+}
+.lt-ie9 #head-menu ul li a {
+    display: block;
+    padding: 0;
+    margin: 8px 0 0 25px;
+    color: #ddd;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Crimson Text', serif;
+}
+.lt-ie9 #head-menu ul li a:hover {
+    color: #fff;
+}
+.lt-ie9 #head-menu ul li a:active {
+    color: #111;
+}
+.lt-ie9 #head-menu ul li a.active {
+    color: #bbbcea;
+}
+.lt-ie9 #main-container,
+.lt-ie9 #foot-container {
+    top: 50px;
+}
+.lt-ie9 h1 {
+    font-size: 4em;
+    max-width: 1000px;
+}
+.lt-ie9 h1.home-heading {
+    font-size: 3em;
+}
+.lt-ie9 h2,
+.lt-ie9 .toggle-content,
+.lt-ie9 .static-content {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+}
+.lt-ie9 h2,
+.lt-ie9 .portfolio-heading {
+    cursor: default;
+    font-size: 2em;
+    padding: .25em 0 .5em 0;
+}
+.lt-ie9 .color1,
+.lt-ie9 .color2,
+.lt-ie9 .color3,
+.lt-ie9 .color4,
+.lt-ie9 .color5 {
+    padding: 2em 0 1.5em 0;
+}
+.lt-ie9 .portfolio-description {
+    padding: 1em .5em;
+}
+.lt-ie9 textarea,
+.lt-ie9 input[type=text] {
+    display: block;
+    float: left;
+    clear: right;
+    width: 60%;
+    margin: .25em;
+    padding: .5em;
+    border: 0;
+    background: #aaa;
+}
+.lt-ie9 label {
+    display: block;
+    float: left;
+    width: 20%;
+    line-height: 2em;
+}
+.lt-ie9 input[type=submit] {
+    display: block;
+    float: left;
+    clear: both;
+    border: 0;
+    padding: .5em 1em;
+    background: #aaa;
+}
+.lt-ie9 .half-column {
+    width: 50%;
+    float: left;
+}
+.lt-ie9 .mobile-hide {
+    display: block;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*
+ * Preload these elements with a clearfix.
+ */
+ 
+ #head-container:before, #head-container:after,
+ #main-container:before, #main-container:after,
+ #main-title:before, #main-title:after,
+ #main-content:before, #main-content:after,
+ #foot-container:before, #foot-container:after {
+    content: " ";
+    display: table;
+ }
+ 
+ #head-container:after,
+ #main-container:after,
+ #main-title:after,
+ #main-content:after,
+ #foot-container:after {
+    clear: both;
+ }
+ 
+ #head-container,
+ #main-container,
+ #main-title,
+ #main-content, 
+ #foot-container {
+    *zoom: 1;
+ }
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+    #mobile-menu,
+    #head-menu,
+    #foot-container,
+    h1 {
+        display: none;
+    }
+    .toggle-content {
+        display: block;
+        width: 100%;
+    }
+    #main-content {
+        padding: 0 1em;
+    }
+    h2 {
+        display: inline;
+        padding: 0;
+    }
+    #head-title {
+        display: inline;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+    }
+    #resume-print {
+        display: none;
+    }
+    #resume-contact {
+        display: block;
+        margin: 0 0 1em 0;
+    }
+}

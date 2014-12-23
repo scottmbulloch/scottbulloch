@@ -1,0 +1,40 @@
+body {
+	font-family: normal 16px/20px Arial,Helvetica,sans-serif;
+}
+.white {
+	color: #fff;
+	text-decoration: none;
+}
+.black {
+	color: #000;
+	text-decoration: none;
+}
+.blackbold {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.teal {
+	font-size: 10px;
+	color: #00C2C7;
+	text-decoration: none;
+}
+.whitebold {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.purple {
+	font-size: 10px;
+	color: #8261B8;
+	text-decoration: none;
+}
+.whitesmall {
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #8261B8;
+	text-decoration: none;
+}

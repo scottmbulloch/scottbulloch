@@ -1,0 +1,74 @@
+body {
+	background-color: #B5936B;
+	margin: 20px 0;
+	padding: 0;
+	font: normal 14px Verdana,Arial,Helvetica,sans-serif;
+	color: #333333;
+}
+a, a:visited {
+	font-weight: bold;
+	color: #759644;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.onDark {
+	font-size: 12px;
+	color: #E8E2D7;
+}
+.onDark a, .onDark a:visited {
+	color: #E8E2D7;
+	text-decoration: none;
+}
+.onDark a:hover {
+	text-decoration: underline;
+}
+.green, .gold, .blue, .brown {
+	font: bold 16px Arial,Helvetica,sans-serif;
+}
+.green {
+	color: #80A844;
+	padding: 0;
+}
+.gold {
+	color: #CFA40E;
+	letter-spacing: 6px;
+}
+.blue {
+	color: #0E8CD8;
+	padding-bottom: 15px;
+}
+.brown {
+	color: #7C5E3F;
+}
+.textlarge {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+}
+.notes {
+	font-family: "Monotype Corsiva";
+	font-size: 22px;
+	font-weight: bold;
+	color: #80A844;
+}
+.advert {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+}
+.textsmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.textmain {
+	padding: 0 0 0 15px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Park Place Poker: Previous Tournament Scores</title>
+
+<link rel="stylesheet" href="css/combined.css" />
+
+<script src="js/combined.js"></script>
+<script>
+$(document).ready( function () {
+  var oTable = $("#pokerScores").dataTable ( {
+    "fnDrawCallback": function ( oSettings ) {
+      if ( oSettings.bSorted || oSettings.bFiltered ) {
+        for ( var i=0, iLen=oSettings.aiDisplay.length ; i<iLen ; i++ ) {
+          $("td:eq(0)", oSettings.aoData[ oSettings.aiDisplay[i] ].nTr ).html( i+1 );
+        }
+      }
+    },
+    "aoColumnDefs": [
+      { "bSortable": false, "aTargets": [ 0, 1 ] },
+      { "bVisible": false, "aTargets": [  ] },
+      { "asSorting": [ "desc" ], "aTargets": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] }
+    ],
+    "aaSorting": [[ 11, "desc" ]],
+    "bJQueryUI": true,
+    "bPaginate": false,
+    "iDisplayLength": 10,
+    "bFilter": true,
+    "bInfo": true
+  } );
+  $(".navlink").button();
+  $(".subnavlink").button();
+} );
+</script>
+
+</head>
+
+<body>
+
+<div id="headerbar" class="ui-widget-header ui-helper-clearfix">
+  <h1>Tournament 9 Scores</h1>
+  <p>Final Table on May 25, 2011</p>
+  <a href="archives.html" class="navlink">ARCHIVES</a>
+  <a href="rules.html" class="navlink">RULES</a>
+  <a href="/" class="navlink">SCORES</a>
+</div>
+
+<div class="subnavbar ui-state-default ui-helper-clearfix">
+  <a href="archive_01.html" class="subnavlink">1</a>
+  <a href="archive_02.html" class="subnavlink">2</a>
+  <a href="archive_03.html" class="subnavlink">3</a>
+  <a href="archive_04.html" class="subnavlink">4</a>
+  <a href="archive_05.html" class="subnavlink">5</a>
+  <a href="archive_06.html" class="subnavlink">6</a>
+  <a href="archive_07.html" class="subnavlink">7</a>
+  <a href="archive_08.html" class="subnavlink">8</a>
+  <a href="archive_09.html" class="subnavlink">9</a>
+  <a href="archive_10.html" class="subnavlink">10</a>
+  <a href="archive_11.html" class="subnavlink">11</a>
+  <a href="archive_12.html" class="subnavlink">12</a>
+  <a href="archive_13.html" class="subnavlink">13</a>
+  <a href="archive_14.html" class="subnavlink">14</a> 
+  <a href="archive_15.html" class="subnavlink">15</a>
+  <a href="archive_16.html" class="subnavlink">16</a> 
+</div>
+
+<table class="display" id="pokerScores">
+  <thead>
+    <tr><th>RANK</th><th>NAME</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>TOTAL</th></tr>
+  </thead>
+  <tbody>
+    <tr id="1"><td>&nbsp;</td><td>Jackson</td><td>10</td><td class="win">163</td><td class="win">154</td><td>22</td><td>90</td><td>10</td><td>136</td><td>94</td><td>186</td><td>865</td></tr>
+    <tr id="2"><td>&nbsp;</td><td>Scott</td><td>90</td><td>78</td><td>90</td><td>70</td><td>26</td><td>75</td><td>154</td><td>80</td><td>10</td><td>673</td></tr>
+    <tr id="3"><td>&nbsp;</td><td>Eric</td><td>122</td><td>146</td><td>106</td><td class="win">118</td><td>10</td><td>62</td><td>10</td><td>66</td><td>0</td><td>640</td></tr>
+    <tr id="4"><td>&nbsp;</td><td>Jillian</td><td>106</td><td>112</td><td>42</td><td>10</td><td>122</td><td>23</td><td>46</td><td>10</td><td>54</td><td>525</td></tr>
+    <tr id="5"><td>&nbsp;</td><td>Chuck&nbsp;A</td><td>10</td><td>10</td><td>74</td><td>10</td><td>138</td><td>114</td><td>118</td><td>10</td><td>10</td><td>494</td></tr>
+    <tr id="6"><td>&nbsp;</td><td>Mouna</td><td class="win">154</td><td>0</td><td>10</td><td>0</td><td>0</td><td>101</td><td>0</td><td>0</td><td class="win">208</td><td>473</td></tr>
+    <tr id="7"><td>&nbsp;</td><td>Taylor&nbsp;C</td><td>58</td><td>10</td><td>0</td><td>58</td><td class="win">154</td><td>0</td><td>0</td><td>0</td><td>142</td><td>422</td></tr>
+    <tr id="8"><td>&nbsp;</td><td>Mike&nbsp;T</td><td>42</td><td>61</td><td>26</td><td>34</td><td>10</td><td>36</td><td>28</td><td>24</td><td>120</td><td>381</td></tr>
+    <tr id="9"><td>&nbsp;</td><td>Juancho</td><td>10</td><td>10</td><td>138</td><td>46</td><td>74</td><td>49</td><td>10</td><td>10</td><td>10</td><td>357</td></tr>
+    <tr id="10"><td>&nbsp;</td><td>Justin</td><td>0</td><td>0</td><td>122</td><td>0</td><td>106</td><td>0</td><td>0</td><td>0</td><td>76</td><td>304</td></tr>
+    <tr id="11"><td>&nbsp;</td><td>Taylor&nbsp;S</td><td>0</td><td>0</td><td>0</td><td>106</td><td>0</td><td>0</td><td class="win">172</td><td>0</td><td>0</td><td>278</td></tr>
+    <tr id="12"><td>&nbsp;</td><td>Red&nbsp;Beard</td><td>0</td><td>129</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>122</td><td>10</td><td>271</td></tr>
+    <tr id="13"><td>&nbsp;</td><td>Renee</td><td>74</td><td>10</td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>164</td><td>258</td></tr>
+    <tr id="14"><td>&nbsp;</td><td>Kevin&nbsp;T</td><td>26</td><td>0</td><td>10</td><td>0</td><td>10</td><td class="win">127</td><td>10</td><td>52</td><td>0</td><td>235</td></tr>
+    <tr id="15"><td>&nbsp;</td><td>Chris&nbsp;B</td><td>0</td><td>10</td><td>0</td><td>94</td><td>0</td><td>0</td><td>100</td><td>0</td><td>10</td><td>214</td></tr>
+    <tr id="16"><td>&nbsp;</td><td>Richard</td><td>138</td><td>10</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>158</td></tr>
+    <tr id="17"><td>&nbsp;</td><td>Kyle</td><td>10</td><td>10</td><td>10</td><td>0</td><td>10</td><td>10</td><td>0</td><td>0</td><td>98</td><td>148</td></tr>
+    <tr id="18"><td>&nbsp;</td><td>Nick&nbsp;H</td><td>10</td><td>0</td><td>10</td><td>0</td><td>42</td><td>0</td><td>64</td><td>10</td><td>10</td><td>146</td></tr>
+    <tr id="19"><td>&nbsp;</td><td>Nick&nbsp;BBS</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>10</td><td>108</td><td>10</td><td>138</td></tr>
+    <tr id="20"><td>&nbsp;</td><td>Mitchell</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="win">136</td><td>0</td><td>136</td></tr>
+    <tr id="21"><td>&nbsp;</td><td>Nicole</td><td>10</td><td>0</td><td>10</td><td>0</td><td>58</td><td>0</td><td>10</td><td>38</td><td>10</td><td>136</td></tr>
+    <tr id="22"><td>&nbsp;</td><td>Brandon</td><td>0</td><td>0</td><td>0</td><td>82</td><td>0</td><td>10</td><td>10</td><td>0</td><td>0</td><td>102</td></tr>
+    <tr id="23"><td>&nbsp;</td><td>Andrew</td><td>0</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>95</td></tr>
+    <tr id="24"><td>&nbsp;</td><td>Mike&nbsp;W</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>0</td><td>82</td><td>0</td><td>0</td><td>92</td></tr>
+    <tr id="25"><td>&nbsp;</td><td>Daniel</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>88</td><td>0</td><td>0</td><td>0</td><td>88</td></tr>
+    <tr id="26"><td>&nbsp;</td><td>Bo</td><td>10</td><td>10</td><td>58</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>78</td></tr>
+    <tr id="27"><td>&nbsp;</td><td>Ernie</td><td>0</td><td>44</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>44</td></tr>
+    <tr id="28"><td>&nbsp;</td><td>Alex</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>0</td><td>32</td><td>42</td></tr>
+    <tr id="29"><td>&nbsp;</td><td>Tiffany</td><td>0</td><td>27</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td></tr>
+    <tr id="30"><td>&nbsp;</td><td>JR</td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>10</td><td>0</td><td>10</td><td>30</td></tr>
+    <tr id="31"><td>&nbsp;</td><td>Glen</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>0</td><td>10</td><td>20</td></tr>
+    <tr id="32"><td>&nbsp;</td><td>Jon&nbsp;F</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td></tr>
+    <tr id="33"><td>&nbsp;</td><td>Rob</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td></tr>
+    <tr id="34"><td>&nbsp;</td><td>Kelly</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>10</td></tr>
+    <tr id="35"><td>&nbsp;</td><td>Somia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>10</td></tr>
+    <tr id="36"><td>&nbsp;</td><td>B-Mart</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>10</td></tr>
+  </tbody>
+</table>
+
+<div id="footerbar" class="ui-widget-header ui-helper-clearfix">
+  <p>Copyright &copy; 2008-2013 Keith Jackson. Website by <a href="http://scottbulloch.com/" target="_blank">Scott Bulloch</a>.</p>
+</div>
+
+</body>
+
+</html>

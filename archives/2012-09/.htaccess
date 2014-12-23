@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+#
+# Externally redirect requests for index.html(or shtml or php) in any directory to "/" in that directory
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.(s?html?|php)\ HTTP/
+RewriteRule ^(([^/]+/)*)index\.(s?html?|php)$ http://scottbulloch.com/$1 [R=301,L]
+#
+# Externally redirect requests for www.scottbulloch.com to scottbulloch.com
+RewriteCond %{HTTP_HOST} ^www\.scottbulloch\.com$ [NC]
+RewriteRule ^(.*)$ http://scottbulloch.com/$1 [R=301,L]

@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Park Place Poker: Current Tournament Scores</title>
+
+<link rel="stylesheet" href="css/combined.css" />
+
+<script src="js/combined.js"></script>
+<script>
+$(document).ready( function () {
+  var oTable = $("#pokerScores").dataTable ( {
+    "fnDrawCallback": function ( oSettings ) {
+      if ( oSettings.bSorted || oSettings.bFiltered ) {
+        for ( var i=0, iLen=oSettings.aiDisplay.length ; i<iLen ; i++ ) {
+          $("td:eq(0)", oSettings.aoData[ oSettings.aiDisplay[i] ].nTr ).html( i+1 );
+        }
+      }
+    },
+    "aoColumnDefs": [
+      { "bSortable": false, "aTargets": [ 0, 1 ] },
+      { "bVisible": false, "aTargets": [  ] },
+      { "asSorting": [ "desc" ], "aTargets": [ 2, 3, 4, 5, 6, 7, 8, 9, 10 ] }
+    ],
+    "aaSorting": [[ 10, "desc" ]],
+    "bJQueryUI": true,
+    "bPaginate": false,
+    "iDisplayLength": 10,
+    "bFilter": true,
+    "bInfo": true
+  } );
+  $(".navlink").button();
+} );
+</script>
+
+</head>
+
+<body>
+
+<div id="headerbar" class="ui-widget-header ui-helper-clearfix">
+  <h1>Tournament 17 Scores</h1>
+  <p>Updated on August 6th, 2013</p>
+  <a href="archives.html" class="navlink">ARCHIVES</a>
+  <a href="rules.html" class="navlink">RULES</a>
+  <a href="/" class="navlink">SCORES</a>
+</div>
+
+<table class="display" id="pokerScores">
+  <thead>
+    <tr><th>RANK</th><th>NAME</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>TOTAL</th></tr>
+  </thead>
+  <tbody>
+    <tr id="1">
+      <td>&nbsp;</td>
+      <td>Patrick</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>60</td></tr>
+    <tr id="2">
+      <td>&nbsp;</td>
+      <td>Mitch</td>
+      <td>0</td>
+      <td>0</td>
+      <td>199</td>
+      <td>0</td>
+      <td class="win">199</td>
+      <td>136</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>534</td></tr>
+    <tr id="3">
+      <td>&nbsp;</td>
+      <td>Chris B</td>
+      <td>0</td>
+      <td class="win">172</td>
+      <td>172</td>
+      <td>138</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>512</td></tr>
+    <tr id="4">
+      <td>&nbsp;</td>
+      <td>Scott</td>
+      <td>140</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>118</td>
+      <td>150</td><td>&nbsp;</td>
+      <td>448</td></tr>
+    <tr id="5">
+      <td>&nbsp;</td>
+      <td>Mouna</td>
+      <td class="win">244</td>
+      <td>0</td>
+      <td>226</td>
+      <td>74</td>
+      <td>10</td>
+      <td>46</td>
+      <td>90</td><td>&nbsp;</td>
+      <td>690</td></tr>
+    <tr id="6">
+      <td>&nbsp;</td>
+      <td>Jackson</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>90</td>
+      <td>73</td>
+      <td>100</td>
+      <td>30</td><td>&nbsp;</td>
+      <td>323</td></tr>
+    <tr id="7">
+      <td>&nbsp;</td>
+      <td>Taylor C</td>
+      <td>0</td>
+      <td>0</td>
+      <td>145</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>165</td></tr>
+    <tr id="8">
+      <td>&nbsp;</td>
+      <td>Taylor S</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="9">
+      <td>&nbsp;</td>
+      <td>Hui</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>26</td>
+      <td>0</td>
+      <td class="win">172</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>238</td></tr>
+    <tr id="10">
+      <td>&nbsp;</td>
+      <td>Mike W</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="11">
+      <td>&nbsp;</td>
+      <td>Brockman</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="12">
+      <td>&nbsp;</td>
+      <td>Shaggy</td>
+      <td>10</td>
+      <td>136</td>
+      <td>10</td>
+      <td class="win">154</td>
+      <td>31</td>
+      <td>10</td>
+      <td>130</td><td>&nbsp;</td>
+      <td>481</td></tr>
+    <tr id="13">
+      <td>&nbsp;</td>
+      <td>Tommy</td>
+      <td>0</td>
+      <td>154</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>164</td></tr>
+    <tr id="14">
+      <td>&nbsp;</td>
+      <td>Sonny</td>
+      <td>218</td>
+      <td>10</td>
+      <td>37</td>
+      <td>122</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>397</td></tr>
+    <tr id="15">
+      <td>&nbsp;</td>
+      <td>Eric</td>
+      <td>10</td>
+      <td>118</td>
+      <td>10</td>
+      <td>10</td>
+      <td>94</td>
+      <td>10</td>
+      <td>110</td><td>&nbsp;</td>
+      <td>362</td></tr>
+    <tr id="16">
+      <td>&nbsp;</td>
+      <td>Renee</td>
+      <td>0</td>
+      <td>0</td>
+      <td>118</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>138</td></tr>
+    <tr id="17">
+      <td>&nbsp;</td>
+      <td>Kyle</td>
+      <td>166</td>
+      <td>0</td>
+      <td class="win">253</td>
+      <td>10</td>
+      <td>115</td>
+      <td>64</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>618</td></tr>
+    <tr id="18">
+      <td>&nbsp;</td>
+      <td>Mike N</td>
+      <td>192</td>
+      <td>64</td>
+      <td>10</td>
+      <td>106</td>
+      <td>10</td>
+      <td>10</td>
+      <td class="win">190</td><td>&nbsp;</td>
+      <td>582</td></tr>
+    <tr id="19">
+      <td>&nbsp;</td>
+      <td>Somia</td>
+      <td>10</td>
+      <td>28</td>
+      <td>0</td>
+      <td>0</td>
+      <td>178</td>
+      <td>82</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>298</td></tr>
+    <tr id="20">
+      <td>&nbsp;</td>
+      <td>Will</td>
+      <td>88</td>
+      <td>100</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>188</td></tr>
+    <tr id="21">
+      <td>&nbsp;</td>
+      <td>Jacci</td>
+      <td>114</td>
+      <td>82</td>
+      <td>64</td>
+      <td>10</td>
+      <td>157</td>
+      <td>28</td>
+      <td>50</td><td>&nbsp;</td>
+      <td>505</td></tr>
+    <tr id="22">
+      <td>&nbsp;</td>
+      <td>Red Beard</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="23">
+      <td>&nbsp;</td>
+      <td>Mario</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>60</td></tr>
+    <tr id="24">
+      <td>&nbsp;</td>
+      <td>Daphne</td>
+      <td>10</td>
+      <td>46</td>
+      <td>91</td>
+      <td>58</td>
+      <td>136</td>
+      <td>154</td>
+      <td>70</td><td>&nbsp;</td>
+      <td>565</td></tr>
+    <tr id="25">
+      <td>&nbsp;</td>
+      <td>Adrian</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td><td>&nbsp;</td>
+      <td>20</td></tr>
+    <tr id="26">
+      <td>&nbsp;</td>
+      <td>Missy</td>
+      <td>62</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>72</td></tr>
+    <tr id="27">
+      <td>&nbsp;</td>
+      <td>Shylo</td>
+      <td>36</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>36</td></tr>
+    <tr id="28">
+      <td>&nbsp;</td>
+      <td>Daniel</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>52</td>
+      <td>10</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>82</td></tr>
+    <tr id="29">
+      <td>&nbsp;</td>
+      <td>CCK</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="30">
+      <td>&nbsp;</td>
+      <td>Heather</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>20</td></tr>
+    <tr id="31">
+      <td>&nbsp;</td>
+      <td>Danielle</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="32">
+      <td>&nbsp;</td>
+      <td>Nick P</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="33">
+      <td>&nbsp;</td>
+      <td>Dan K</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>30</td></tr>
+    <tr id="34">
+      <td>&nbsp;</td>
+      <td>Tammy</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="35">
+      <td>&nbsp;</td>
+      <td>Dom</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>42</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td><td>&nbsp;</td>
+      <td>42</td></tr>
+    <tr id="36">
+      <td>&nbsp;</td>
+      <td>Jake</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>&nbsp;</td>
+      <td>10</td></tr>
+    <tr id="37">
+      <td>&nbsp;</td>
+      <td>Amanda</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>170</td>
+      <td>&nbsp;</td>
+      <td>170</td></tr>
+  </tbody>
+</table>
+
+<div id="footerbar" class="ui-widget-header ui-helper-clearfix">
+  <p>Copyright &copy; 2008-2013 Keith Jackson. Website by <a href="http://scottbulloch.com/" target="_blank">Scott Bulloch</a>.</p>
+</div>
+
+</body>
+</html>

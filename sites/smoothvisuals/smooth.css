@@ -1,0 +1,20 @@
+.links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2B293E;
+	text-decoration: none;
+}
+.standard {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2B293E;
+	text-decoration: none;
+}
+a:link {
+	color: #3A3753;
+}
+a:hover {
+	color: #DD9312;
+}

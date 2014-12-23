@@ -1,0 +1,301 @@
+/* _________________________________________________________________ general */
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee url(../img/bg01.jpg) repeat left top;
+	font: 14px/100% "Trebuchet MS", Tahoma, sans-serif;
+	color: #444;
+}
+form {
+	padding: 0;
+	margin: 0 25px 13px 25px;
+	line-height: 160%;
+}
+code {
+	width: 90%;
+	color: #eee;
+    padding: 0 13px;
+	margin: 7px auto;
+    background-color: #416382;
+	border: 1px dashed #eee;
+	display: block;
+}
+object, embed {
+	display: block;
+	margin: auto;
+}
+a {
+	color: #444;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a.external {
+	background: url(../img/external.jpg) no-repeat right center;
+	padding: 0 13px 0 0;
+}
+p {
+	padding: 0;
+	margin: 0 31px 15px 31px;
+	line-height: 160%;
+}
+p.alert {
+	color: #f63;
+	font-size: 15px;
+	font-weight: bold;
+}
+.textright {
+	text-align: right;
+}
+.textcenter {
+	text-align: center;
+}
+.textleft {
+	text-align: left;
+}
+.centered {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+/* ________________________________________________________________ headings */
+h1 {
+	color: #eee;
+	font: 29px/130% Georgia, Times, serif;
+	letter-spacing: 1px;
+	padding: 0 0 0 17px;
+	margin: 0 0 23px 0;
+	background: url(../img/img02.gif) no-repeat left top;
+}
+h2 {
+	color: #416382;
+	font: bold 19px/130% Georgia, Times, serif;
+	letter-spacing: 3px;
+	border-bottom: 1px dashed #416382;
+	padding: 0;
+	margin: 13px 13px 7px 13px;
+}
+h3 {
+	color: #444;
+	font: bold 15px/100% "Trebuchet MS", Tahoma, sans-serif;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 9px 0 5px 0;
+}
+/* ___________________________________________________________________ lists */
+ul, ol {
+	padding: 0;
+	margin: 0 0 25px 71px;
+	list-style-type: square;
+	line-height: 140%;
+}
+ul {
+	list-style-type: square;
+}
+ol {
+	list-style-type: decimal;
+}
+ul ul, ul ol {
+	padding: 0;
+	margin: 0 0 5px 37px;
+	line-height: 140%;
+}
+ul ol ul {
+	padding: 0;
+	margin: 0 0 5px 27px;
+	line-height: 140%;
+}
+/* __________________________________________________________________ images */
+img, a img {
+	border: none;
+}
+img.bordered, a img.bordered {
+	border: 1px dashed #416382;
+	margin: 7px 0;
+}
+img.alignleft {
+	float: left;
+	margin: 7px 13px;
+}
+img.alignright {
+	float: right;
+	margin: 7px 13px;
+}
+/* __________________________________________________________________ tables */
+table {
+	width: 90%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	border: 2px solid #666;
+}
+th {
+	color: #eee;
+	background-color: #666;
+}
+/* _____________________________________________________________________ nav */
+#menu {
+	float: right;
+	margin: 0;
+	padding: 33px 130px 0 0;
+}
+#lavaLamp {
+	float: right;
+	position: relative;
+	padding: 13px 17px;
+	margin: 0;
+}
+#lavaLamp li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+#lavaLamp li.backLava {
+	background-color: #416382;
+	width: 23px;
+	height: 35px;
+	z-index: 8;
+	position: absolute;
+}
+#lavaLamp li a, #lavaLamp li a:visited {
+	font: 17px/11px Georgia, Times, serif;
+	text-decoration: none;
+	color: #416382;
+	outline: none;
+	text-align: center;
+	padding: 13px 17px 12px 17px;
+	z-index: 10;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+}
+#lavaLamp li.selectedLava {
+	color: #eee;
+}
+#lavaLamp li a:hover, #lavaLamp li a:active {
+	color: #eee;
+	border: none;
+}
+/* __________________________________________________________________ layout */
+#wrapper {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg02.jpg) repeat-x left top;
+}
+#page {
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../img/bg04.jpg) repeat-y left top;
+}
+#bgtop {
+	background: url(../img/bg05.jpg) no-repeat left top;
+}
+#bgbottom {
+	background: url(../img/bg06.jpg) no-repeat left bottom;
+}
+/* \*/
+* html #bgtop { height: 1%; }
+* html #bgbottom { height: 1%; }
+/* */
+/* __________________________________________________________________ header */
+#header {
+	width: 1180px;
+	height: 130px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../img/bg03.jpg) no-repeat left top;
+}
+#logo {
+	float: left;
+	margin: 0;
+	padding: 37px 0 0 145px;
+}
+/* _________________________________________________________________ content */
+#content {
+	float: left;
+	width: 650px;
+	padding: 51px 0 35px 165px;
+	margin: 0;
+}
+#content .box {
+	width: 90%;
+	padding: 0;
+	margin: 5px auto;
+}
+#content a.thumb {
+	padding: 0;
+	margin: 0;
+}
+.toggleHead {
+	cursor: pointer;
+}
+.toggleBody {
+	display: none;
+}
+/* _________________________________________________________________ sidebar */
+#sidebar {
+	float: right;
+	width: 180px;
+	padding: 5px 140px 25px 0;
+	margin: 0;
+}
+#sidebar ul {
+	margin: 0 11px;
+	padding: 0;
+	list-style: none;
+}
+#sidebar li {
+	margin: 0 0 7px 0;
+	padding: 0;
+	text-align: right;
+}
+#sidebar li a {
+	font: 12px/100% "Trebuchet MS", Tahoma, sans-serif;
+	color: #fc0;
+	text-decoration: none;
+}
+#sidebar li a:hover {
+	text-decoration: underline;
+}
+#sidebar h1 {
+	margin: 13px 0 7px 0;
+	padding: 7px 5px 5px 7px;
+	font: bold 13px/100% Georgia, Times, serif;
+	text-align: right;
+	color: #385571;
+	background: url(../img/img03.gif) no-repeat left center;
+}
+/* __________________________________________________________________ footer */
+#footer {
+	width: 1180px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../img/bg07.jpg) no-repeat left top;
+}
+#footer .content {
+	width: 700px;
+	margin: 0 0 0 140px;
+	padding: 0;
+	text-align: center;
+}
+#footer a {
+	color: #eee;
+}
+#footer p {
+	margin: 0;
+	font-size: 11px;
+	color: #eee;
+	padding: 19px 0 13px 0;
+}
+#footer img {
+	padding: 0 27px 0 0;
+}

@@ -1,0 +1,201 @@
+body {
+	background-color: #692326;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #121A0C;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #692326;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	line-height: 20px;
+
+}
+ul {
+	list-style-image: url(images/apple_bullet.png);
+}
+li {
+	padding-bottom: 7px;
+	line-height: 20px;
+}
+h1 {
+	font-family: "Script MT Bold", "Script Bold", Script, "Brush Script MT", "Brush Script";
+	font-size: 32px;
+	color: #21391D;
+	text-decoration: none;
+	text-align: center;
+	margin: 6px 0 0 0;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+blockquote {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 18px;
+}
+#left {
+	width: 745px;
+	margin: 0 auto;
+	padding: 0 0 0 15px;
+	background: url(images/eat_border_left.jpg) repeat-y left top;
+}
+#right {
+	padding: 0 15px 0 0;
+	background: url(images/eat_border_right.jpg) repeat-y right top;
+}
+#middle {
+	width: 730px;
+}
+#header {
+	height: 348px;
+	background: url(images/eat_header.jpg) no-repeat center top;
+}
+#container {
+	background: url(images/eat_content.jpg) repeat-y center top;
+}
+#main {
+	width: 690px;
+	margin: 0 0 0 20px;
+}
+#footer {
+	background: url(images/eat_footer.jpg) no-repeat center top;
+	text-align: center;
+	height: 294px;
+}
+.img {
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	background: url(images/eat_nav_block30.png) repeat left top;
+
+}
+.rate {
+	font-size: 14px;
+	text-align: center;
+	line-height: 0;
+}
+.foot {
+	font-size: 14px;
+	color: #D0C7B5;
+	width: 630px;
+	margin-left: 30px;
+	padding-top: 15px;
+	line-height: 24px;
+}
+.divider {
+	background: url(images/line_divider.png) no-repeat center top;
+	height: 20px;
+	width: 630px;
+}
+.foot a {
+	color: #D0C7B5;
+}
+.blog {
+	font-size: 14px;
+	text-align: center;
+}
+.content {
+	width: 630px;
+	margin-left: 30px;
+}
+.border {
+	background-image: url(images/eat_nav_block30.png);
+	background-repeat: repeat;
+	height: 5px;
+	width: 690px;
+	clear: both;
+}
+.space {
+	height: 5px;
+	width: 690px;
+	clear: both;
+}
+.space2 {
+	height: 20px;
+	width: 690px;
+	clear: both;
+}
+.space3 {
+	height: 2px;
+	width: 690px;
+	clear: both;
+}
+.quiz {
+	width: 600px;
+}
+.quiz .box {
+	width: 25px;
+}
+.indent {
+	width: 630px;
+	margin-left: 20px;
+}
+.services {
+	padding-left: 17px;
+
+}
+.services li a {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.menu {
+	width: 690px;
+}
+.menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+.menu ul li {
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li a {
+	display: block;
+	color: #D0C7B5;
+	text-decoration: none;
+	font: bold 16px/23px Georgia, "Times New Roman", Times, serif;
+	float: left;
+	text-align: center;
+	background: url(images/eat_nav_block30.png) repeat left top;
+	padding: 7px 13px;
+	margin: 2px 0 0 2px;
+}
+.menu ul li a:hover {
+	color: #121A0C;
+	background: url(images/eat_nav_block00.png) repeat left top;
+}
+.menu ul li a.current {
+	color: #121A0C;
+	background: url(images/eat_nav_block00.png) repeat left top;
+}
+.menu ul li.rest {
+	background: url(images/eat_nav_block30.png) repeat left top;
+	width: 72px;
+	height: 37px;
+	display: block;
+	float: left;
+	margin: 2px 0 0 2px;
+}
+.menu ul li.rest2 {
+	background: url(images/eat_nav_block30.png) repeat left top;
+	width: 197px;
+	height: 37px;
+	display: block;
+	float: left;
+	margin: 2px 0 0 2px;
+}

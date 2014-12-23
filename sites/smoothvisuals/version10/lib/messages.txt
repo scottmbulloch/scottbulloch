@@ -1,0 +1,97 @@
+# This file contains the error and alert messages used by Phorm. They have been
+# consolidated here to allow for easier translation and/or customization. This
+# setup eliminates the need for the Custom Message plugin.
+
+# Each line consists of a message number: E for error messages and A for alert
+# messages (pretty clever, huh?) followed by three digits. After the message
+# number is a space, followed by the message itself. The %%% sequence in the
+# message text will be replaced with the three-digit error or alert number.
+# Variable substitution is performed as described in the Phorm documentation. 
+
+E000 %%% - Catastrophic error: Unable to read Phorm function library <B>{{ph_root}}/lib/functions.php3</B>.
+E001 %%% - Catastrophic error: Wrong function library version ({{ph_LibVersion}}).
+E002 %%% - Catastrophic error: Unable to read Phorm MIME types library.
+E003 %%% - I'm sorry, Phorm requires at least PHP version {{ph_PHPMinVers}}. 
+E009 %%% - Fatal PHP configuration error. Unable to continue processing.
+E010 %%% - Unable to open Phorm Base file {{ph_phormbase}}
+E020 %%% - Unable to open main Phorm configuration file.
+E030 %%% - Invalid directory <B>{{ph_basedir}}</B> in <B>{{ph_phormbase}}</B>.
+E040 %%% - I'm sorry, this page only processes the contents of a form. You cannot access it directly.
+E050 %%% - Unable to open configuration file <B>{{ph_cwd}}/{{PHORM_CONFIG}}</B>.
+E060 %%% - Invalid directory <B>{{PHORM_BASE}}</B> in $PHORM_BASE in <B>{{ph_cwd}}/{{PHORM_CONFIG}}</B>
+E070 %%% - Unable to open acknowledgement template file <B>{{PHORM_ACK}}</B>.
+E080 %%% - Invalid access. This Phorm installation cannot be accessed from [{{HTTP_REFERER}}].
+E090 %%% - There has been an error, and your information has not been sent.
+
+A000 %%% - Unable to load plugin file {{ph_plfile}} at stage {{ph_stage}}.
+A001 %%% - Unable to open validation error file <B>{{ph_tpd}}/{{ph_ErrFile}}</B>.
+A002 %%% - Unable to open autoresponder template file <B>{{ph_tpd}}/{{PHORM_RESPOND}}</B>.
+A003 %%% - Unable to open autoresponder attachment file <B>{{ph_atd}}/{{PHORM_RESATCH}}</B>.
+A004 %%% - Unable to open the text log file <B>{{ph_tpd}}/{{lPHORM_LOG}}</B>.
+A005 %%% - Unable to open mail template file <B>{{lPHORM_TMPL}}</B>.
+A006 %%% - Unable to open file attachment module. User email attachment{{ph_s}} not sent.
+A007 %%% - Unable to open Database variables file <B>{{ph_tpd}}/{{PHORM_MYDBV}}</B>.
+A008 %%% - Unable to open validation rules file {{ph_tpd}}/{{PHORM_VALDEFS}}.
+A009 %%% - File upload is disabled in your PHP configuration, and your form was sent with the ENCTYPE=multipart/form-data attribute. Phorm cannot read your form contents.
+
+A010 %%% - Unable to open file attachment module. Responder attachment not sent.
+A011 %%% - Unable to open file upload module. Uploaded file(s) not saved.
+
+A020 %%% - Invalid construction in {{ph_phormbase}}.
+
+A030 %%% - Unable to connect to host {{DHost}}.
+A031 %%% - Unable to select database {{DBase}}.
+
+A040 %%% - Error on query:<BR>{{PHORM_LINEBRK}}   {{ph_LOGQString}}<BR>{{PHORM_LINEBRK}} MySQL says: {{ph_LOGMyErr}}
+
+A050 %%% - REGEX criterion requires one argument.
+A051 %%% - CCARD criterion requires one argument.
+A052 %%% - RANGE criterion requires two arguments.
+A053 %%% - ONEOF criterion requires at least one argument.
+A054 %%% - GT criterion requires an argument.
+A055 %%% - LT criterion requires an argument.
+A056 %%% - EQ criterion requires an argument.
+A057 %%% - GE criterion requires an argument.
+A058 %%% - LE criterion requires an argument.
+A059 %%% - NE criterion requires an argument.
+A060 %%% - UNIQUE criterion requires two arguments.
+A061 %%% - UNIQUE criterion requires a database to be open.
+A062 %%% - Error on query:<BR>{{PHORM_LINEBRK}}   {{ph_UNQQString}}<BR>{{PHORM_LINEBRK}} MySQL says: {{ph_UNQMyErr}}
+A063 %%% - EXISTS criterion requires two arguments.
+A064 %%% - EXISTS criterion requires a database to be open.
+A065 %%% - Error on query:<BR>{{PHORM_LINEBRK}}   {{ph_EXSQString}}<BR>{{PHORM_LINEBRK}} MySQL says: {{ph_EXSMyErr}}
+A066 %%% - FILEEXT criterion requires at least one argument.
+A067 %%% - FILESIZ criterion requires one argument.
+A068 %%% - DATECMP criterion requires at least one argument.
+A069 %%% - FLDLEN criterion requires three arguments.
+A070 %%% - Invalid criterion: {{ph_BadCrit}}
+A071 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing criterion.
+A072 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing form field name.
+A073 %%% - Incomplete rule (RULE {{ph_RuleNum}}): missing error message.
+
+A100 %%% - You cannot use $PHORM_ACK and $PHORM_RDIRECT together. You must ack *or* re-direct.
+
+A110 %%% - Mail function failed on autoresponder
+
+A120 %%% - You may not have more than {{ph_tmax}} email templates in $PHORM_TMPL.
+A121 %%% - Mail function failed on user email for template <B>{{lPHORM_TMPL}}</B>.
+
+A130 %%% - Unable to execute post-processing file <B>{{ph_tpd}}/{{PHORM_POSTINC}}</B>.
+
+A140 %%% - Mail function failed on sending alerts.
+
+A150 %%% - This file upload module requires at least Phorm version {{ph_PHMMinVers}}.
+A151 %%% - To upload files, your FORM tag must have the ENCTYPE="multipart/form-data" attribute.
+A152 %%% - Unable to save file {{ph_upd}}/{{ph_FileName}} on your system.
+A153 %%% - Your file upload module is outdated. Contact Phorm Support for the new version.
+
+A160 %%% - This file attachment module requires at least Phorm version {{ph_PHMMinVers}}.
+A161 %%% - Unable to open autoresponder attachment file {{ph_attachfile}}.
+A162 %%% - Unable to open email attachment file {{ph_attachfile}}.
+A163 %%% - Your file attachment module is outdated. Contact Phorm Support for the new version.
+
+A170 %%% - The {{ph_PluginName}} plugin requires at least Phorm v{{ph_ReqPhormVers}}.
+A171 %%% - HTMLMail unable to open autoresponder attachment file {{ph_atd}}/{{PHORM_RESATCH}}.
+A172 %%% - HTMLMail unable to open file attachment module. Responder attachment not sent.
+A173 %%% - HTMLMail Unable to open mail template file <B>{{lPHORM_TMPL}}</B>.
+A174 %%% - HTMLMail Unable to open file attachment module. User email attachment{{ph_s}} not sent.

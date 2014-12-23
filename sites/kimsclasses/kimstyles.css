@@ -1,0 +1,130 @@
+body { 
+    margin: 0;
+    padding: 0; 
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 100%;
+	line-height: 1.2em;
+    background:#fff url('img/background.jpg') top center no-repeat;
+}
+h2,h3 {
+    margin: 0 0 .5em 0;
+    padding: 0;
+	font-size: 1.2em;
+	line-height: 1em;
+}
+img,img a {
+	border: none;
+}
+p {
+	font-size: 1em;
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+form {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+hr {
+	border-bottom: 1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin: 10px 0;
+	padding: 0;
+	clear: both;
+}
+small {
+	font-size: 0.8em;
+}
+#backslider {
+	position: absolute;
+	width: 750px;
+	height: 780px;
+	left: 50%;
+	margin: 0 0 0 -375px;
+	padding: 0;
+	background-color: #fff;
+	/* for IE */
+    filter: alpha(opacity=80);
+    /* CSS3 standard */
+    opacity: 0.8;
+}
+#header {
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+	clear: both;
+}
+#slider {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+	clear: both;
+}
+ul.navigation {
+	width: 600px;
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+}
+ul.navigation li {
+    display: inline;
+}
+ul.navigation a {
+    padding: 5px 10px;
+	color: #380b04;
+	font-weight: bold;
+    text-decoration: none;
+	margin: 0;
+}
+ul.navigation a:hover {
+	color: #fff;
+    background-color: #380b04;
+}
+ul.navigation a.selected {
+	color: #380b04;
+    background-color: #70bbb7;
+}
+ul.navigation a:focus {
+    outline: none;
+}
+.scroll {
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+	margin: 20px 0 0 0;
+}
+.scrollContainer div.panel {
+    height: 600px;
+    width: 650px;
+}
+#footer {
+	position: relative;
+    width: 750px;
+	margin: 20px auto;
+	text-align: center;
+}
+#footer a {
+	font: bold .8em Verdana,Arial,sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+.half {
+	width: 325px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.indent {
+	margin: 0 0 0 20px;
+}
