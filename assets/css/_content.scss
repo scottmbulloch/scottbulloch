@@ -1,0 +1,142 @@
+
+html,
+body {
+  font-family: $preferred_font;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: unquote("rgb(#{$palette-grey-100})");
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  @media (max-width: $grid-tablet-breakpoint - 1) {
+    display: block;
+  }
+}
+
+.mdl-layout__tab-panel {
+  padding: 48px 8px;
+}
+
+.mdl-layout__content section:not(:last-of-type) {
+  margin-bottom: 48px;
+}
+
+.section--center {
+  max-width: 666px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mdl-card {
+  width: auto;
+}
+
+.mdl-card__supporting-text {
+  flex-grow: 1;
+  width: auto;
+  margin: 32px;
+  padding: 0;
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.def-list--2-col {
+
+  dt {
+    margin: 0;
+  }
+
+  dd {
+    margin: 0 0 16px 0;
+  }
+
+  @media (min-width: $grid-tablet-breakpoint) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+
+    dt {
+      width: 30%;
+      margin-bottom: 16px;
+    }
+
+    dd {
+      width: 50%;
+    }
+  }
+}
+
+
+// below this needs audit
+
+section {
+
+  > header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  > .section__play-btn {
+    min-height: 200px;
+  }
+
+  > header > .material-icons {
+    font-size: 3rem;
+  }
+
+  .section__circle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+
+  .section__text {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 8px;
+
+    h5 {
+      font-size: inherit;
+      margin: 0;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .section__text a {
+    text-decoration: none;
+  }
+
+  .section__circle-container > .section__circle-container__circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    margin: 8px 0;
+  }
+
+  &.section--footer {
+    padding: 64px 0;
+    margin: 0 -8px -8px -8px;
+
+    .section__circle--big {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin: 8px 32px;
+    }
+  }
+}
