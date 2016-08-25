@@ -1,0 +1,35 @@
+{
+  "name": "scottbulloch",
+  "version": "1.0.0",
+  "description": "personal website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmbulloch/scottbulloch.git"
+  },
+  "author": "scottmbulloch <drkgry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottmbulloch/scottbulloch/issues"
+  },
+  "homepage": "https://github.com/scottmbulloch/scottbulloch#readme",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "material-design-lite": "^1.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "run-sequence": "^1.2.2"
+  }
+}
